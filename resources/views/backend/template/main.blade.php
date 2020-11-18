@@ -144,7 +144,7 @@
                                     <!-- User profile and search -->
                                     <!-- ============================================================== -->
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('public/matrix-admin-bt4') }}/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
+                                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('public/matrix-admin-bt4') }}/assets/images/users/5.jpg" alt="user" class="rounded-circle" width="31"></a>
                                         <div class="dropdown-menu dropdown-menu-right user-dd animated">
                                             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
                                             <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
@@ -210,9 +210,8 @@
                     <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link active" href="{{url('admin/dashboard')}}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>            
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-package"></i><span class="hide-menu">Laporan </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="{{ url('admin/tour-package/tour-package') }}" class="sidebar-link"><i class="mdi mdi-package"></i><span class="hide-menu"> Laporan Isu Hoaks </span></a></li>
-                                <li class="sidebar-item"><a href="{{ url('admin/tour-package/categories') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Laporan Kategori </span></a></li>
-                                <!--li class="sidebar-item"><a href="{{ url('admin/tour-package/price-categories') }}" class="sidebar-link"><i class="mdi mdi-cash-usd"></i><span class="hide-menu"> Price Categories </span></a></li-->
+                                <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanIsu') }}" class="sidebar-link"><i class="mdi mdi-package"></i><span class="hide-menu"> Laporan Isu Hoaks </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanKategori') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Laporan Kategori </span></a></li>
                               </ul>
                         </li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Gallery </span></a>
