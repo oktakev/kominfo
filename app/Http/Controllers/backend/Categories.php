@@ -9,6 +9,6 @@ class Categories extends Controller
 {
     public function index()
     {
-        return view('backend.categories');
+        return view('backend.gallery.kategori.index');
     }
 }
