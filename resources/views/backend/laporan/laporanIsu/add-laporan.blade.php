@@ -11,7 +11,8 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-            <form action="{{ url('admin/laporan/laporan-isu/tambah-isu') }}" method="post">
+            @include('backend.gallery.gallery-template.select-gallery', ['type' => 'multiple', 'gallery' => $gallery, 'categories' => $categories])
+            <form action="{{ url('admin/laporan/laporanIsu/tambah-isu') }}" method="post">
                 {{ csrf_field()}}
                     <div class="form-group">
                         <div class="row">
@@ -25,10 +26,12 @@
                             </div>
                             <div class="col-md-6 m-t-15">
                                 <label for="">Kategori</label>
-                                <select class="select form-control @error('id_category') is-invalid @enderror" name="id_category" id=""
-                                value="{{ old('id_category')}}">
+                                <select class="select form-control @error('id_kategori') is-invalid @enderror" name="id_kategori" id=""
+                                value="{{ old('id_kategori')}}">
                                     <option value="">---Select---</option>
-                    
+                                    @foreach($laporan_kategori as $l)
+                                    <option value="{{ $l->id_kategori }}">{{ $l->kategori}}</option>
+                                    @endforeach
                                 </select>
                                  @error('Category')
                                     <div class="invalid-feedback"> {{ $message}} </div>
@@ -42,15 +45,12 @@
                                 @enderror
                             </div>
                             <div class="col-md-12 m-t-15">
-                                <label for="">Gambar</label>
-                                <input type="text" name="gambar" class="form-control @error('gambar') is-invalid @enderror" value="{{ old('gambar')}}">
-                                @error('gambar')
-                                    <div class="invalid-feedback"> {{ $message}} </div>
-                                @enderror
+                                <label for="">Gallery</label>
+                                @include('backend.gallery.gallery-template.gallery-hidden')
                             </div>
                             <div class="col-md-12 text-center m-t-15">
                                 <label for="">Content</label>
-                                <textarea class="form-control @error('content') is-invalid @enderror" id="content" name="content" cols="30" rows="10">
+                                <textarea class="form-control @error('content') is-invalid @enderror" id="konten" name="content" cols="30" rows="10">
                                 {{ old('content')}}</textarea>
                                 @error('content')
                                     <div class="invalid-feedback"> {{ $message}} </div>

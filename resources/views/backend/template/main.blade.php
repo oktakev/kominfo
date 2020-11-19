@@ -71,7 +71,7 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ url('admin/dashboard') }}">
                         <!-- Logo icon -->
                         <b class="logo-icon p-l-10">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
@@ -154,8 +154,7 @@
                                             <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="{{url('admin/logout')}}"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
                                             <div class="dropdown-divider"></div>
-                                            <div class="p-l-30 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
-                                        </div>
+                                           </div>
                                     </li>
                                     <!-- ============================================================== -->
                                     <!-- User profile and search -->

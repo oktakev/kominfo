@@ -13,7 +13,9 @@
             <div class="box bg-info text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                    Best package on                     <br>
+                    Jumlah Laporan Hoaks                    
+                    <br>
+                    0
                 </h5>
             </div>
         </div>
@@ -23,8 +25,9 @@
             <div class="box bg-warning text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                    Income on
+                Jumlah Laporan Fakta 
                     <br>
+                    0
                 </h5>
             </div>
         </div>
@@ -35,8 +38,9 @@
             <div class="box bg-success text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                    Booking on
+                    Jumlah Total Pengunjung
                     <br>
+                    0
                 </h5>
             </div>
         </div>
@@ -47,8 +51,9 @@
             <div class="box bg-primary text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                    Tour Packages
+                    Jumlah Total Galeri
                     <br>
+                    0
                 </h5>
             </div>
         </div>
@@ -59,24 +64,40 @@
     <div class="col-md-12">
         <div class="card">
             <div class="box">
-                <h5 class="color-orange">Best Package On</h5>
+                <h5 class="color-orange">Artikel Terpopuler Pada Januari</h5>
                 <div class="table-responsive">
-                    <table class="table table-hover">
+                <table class="table table-hover">
                         <thead>
                             <tr>
                                 <td>Position</td>
-                                <td>Package Name</td>
-                                <td>Durations</td>
-                                <td>Booking</td>
+                                <td>Judul Berita</td>
+                                <td>Kategori</td>
+                                <td>Tanggal Upload</td>
                             </tr>
                         </thead>
                         <tbody>
+                            
                             <tr>
-                                <td> "<span style='line-height:80%;font-size:30px' class='mdi mdi-crown color-orange'></span>" </td>
-                                <td></td>
-                                <td>Days Nights</td>
-                                <td>x</td>
+                                <td><span style='line-height:80%;font-size:30px' class='mdi mdi-crown color-orange'></span></td>
+                                <td>Foto Helikopter Jatuh di Perkebunan Tomohon</td>
+                                <td>Hoax</td>
+                                <td>03 Januari 2020</td>
                             </tr>
+
+                            <tr>
+                                <td>2</span></td>
+                                <td>Link pulsa telkomsel gratis di telegram</td>
+                                <td>Fakta</td>
+                                <td>10 Januari 2020</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</span></td>
+                                <td>Menho Lukut dirawat di belgia</td>
+                                <td>Fakta</td>
+                                <td>22 Januari 2020</td>
+                            </tr>
+                           
                         </tbody>
                     </table>
                 </div>
@@ -88,7 +109,7 @@
     <div class="col-md-12">
         <div class="card">
             <div class="box">
-                <h5 class="color-orange">Nearest Trip</h5>
+                <h5 class="color-orange">Artikel </h5>
                 <div class="table-responsive">
                     <table class="table table-hover">
                         <thead>
@@ -106,11 +127,8 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>Days Nights</td>
                                 <td></td>
-                                <?php 
-                                    
-                                ?>
+                                <td></td>
                               <td></td>
                             </tr>
                         </tbody>
