@@ -210,14 +210,14 @@
                     <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link active" href="{{url('admin/dashboard')}}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>            
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-package"></i><span class="hide-menu">Laporan </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanIsu') }}" class="sidebar-link"><i class="mdi mdi-package"></i><span class="hide-menu"> Laporan Isu Hoaks </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanIsu/list-isu') }}" class="sidebar-link"><i class="mdi mdi-package"></i><span class="hide-menu"> Laporan Isu Hoaks </span></a></li>
                                 <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanKategori') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Laporan Kategori </span></a></li>
                               </ul>
                         </li>
-                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Gallery </span></a>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Galeri</span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="{{ url('admin/gallery/gallery') }}" class="sidebar-link"><i class="mdi mdi-google-photos"></i><span class="hide-menu"> Gallery </span></a></li>
-                                <li class="sidebar-item"><a href="{{ url('admin/gallery/categories') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Categories </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/gallery/gallery') }}" class="sidebar-link"><i class="mdi mdi-google-photos"></i><span class="hide-menu"> Galeri </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/gallery/categories') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Kategori </span></a></li>
                             </ul>
                         </li>
                     </ul>

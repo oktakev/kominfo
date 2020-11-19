@@ -9,6 +9,6 @@ class LapKategori extends Controller
 {
     public function index()
     {
-        return view('backend.laporanKategori');
+        return view('backend.laporan.laporanKat.index');
     }
 }
