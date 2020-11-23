@@ -22,3 +22,13 @@ Route::get('/admin/laporan/laporanKategori/list-kategori', 'App\Http\Controllers
 Route::get('/admin/laporan/laporanKategori/tambah-kategori', 'App\Http\Controllers\backend\LapKategori@add');
 Route::get('/admin/gallery/gallery', 'App\Http\Controllers\backend\Gallery@index');
 Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories@index');
+
+Route::get('/welcome', function(){
+    return view('welcome');
+});
+Route::get('/BeritaHoax', function(){
+    return view('BeritaHoax');
+});
+Route::get('/BeritaHoaxDetil', function(){
+    return view('BeritaHoaxDetil');
+});
