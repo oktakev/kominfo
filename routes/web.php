@@ -22,10 +22,11 @@ Route::get('/admin/laporan/laporanKategori/list-kategori', 'App\Http\Controllers
 Route::get('/admin/laporan/laporanKategori/tambah-kategori', 'App\Http\Controllers\backend\LapKategori@add');
 Route::get('/admin/galeri/postingan/list-postingan', 'App\Http\Controllers\backend\Postingan@index');
 Route::get('/admin/galeri/postingan/tambah-postingan', 'App\Http\Controllers\backend\Postingan@add');
-Route::get('/admin/galeri/postingan/ubah-postingan', 'App\Http\Controllers\backend\Postingan@edit');
+Route::get('/admin/galeri/postingan/edit-postingan/{id}', 'App\Http\Controllers\backend\Postingan@edit');
 Route::get('/admin/galeri/categories/list-categories', 'App\Http\Controllers\backend\Categories@index');
 Route::get('/admin/galeri/categories/tambah-kategori', 'App\Http\Controllers\backend\Categories@add');
-Route::get('/admin/galeri/categories/ubah-kategori', 'App\Http\Controllers\backend\Categories@edit');
+Route::get('/admin/galeri/categories/edit-kategori/{id}', 'App\Http\Controllers\backend\Categories@edit');
+Route::get('/admin/laporan/laporanKategori/edit-kategori/{id}', 'App\Http\Controllers\backend\LapKategori@edit');
 Route::get('/admin/gallery/gallery', 'App\Http\Controllers\backend\Gallery@index');
 Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories@index');
 

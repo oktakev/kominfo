@@ -1,8 +1,8 @@
 @extends('backend.template.main')
-@section('insert_caption','Ubah postingan')
+@section('insert_caption','Edit postingan')
 @section('view_caption','View All postingan')
-@section('insert_link','tambah-postingan')
-@section('view_link','list-postingan')
+@section('insert_link',url("admin/galeri/postingan/tambah-postingan"))
+@section('view_link',url("admin/galeri/postingan/list-postingan"))
 @section('view_status','')
 @section('insert_status','active')
 @section('pagetitle','Postingan')
@@ -11,7 +11,7 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-            <form action="{{url("admin/galeri/postingan/ubah-postingan")}}" method="post" enctype="multipart/form-data">
+            <form action="{{url("admin/galeri/postingan/edit-postingan")}}" method="post" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     {{-- @csrf --}}
                         {{-- <label for="">Gallery Name</label>

@@ -39,7 +39,7 @@
                             <td>{{ $h->link_sumber }}</td>
                             <td>{{ $h->tanggal_upload }}</td>
                             <!--<td>{{ $h->gambar}}</td>-->
-                            <td>{{ $h->content }}</td>
+                            <td>{{substr(strip_tags($h->content),0,100). ' ...'}}
                                 <td>
                                 <div class="dropdown show">
                                         <a class="btn btn-sm btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -25,11 +25,12 @@
                         <div class="invalid-feedback"> {{ $message }} </div>
                         @enderror
                         <br>
-                        <label for="">Category Gallery</label>
+                        <label for="">Kategori Galeri</label>
                         <select class="form-control" name="id_category" id="">
-                            {{-- @foreach ($id_category as $item)
-                                <option value="{{ $item->id_category }}"> {{ $item->category_name }} </option>
-                            @endforeach --}}
+                        <option value="">---Pilih Kategori---</option>
+                        @foreach($gallery_categories as $gl)
+                            <option value="{{ $gl->id_category }}">{{ $gl->category_name}}</option>
+                        @endforeach
                         </select>   
                         <br>
                         <button class="btn btn-primary" type="submit"><span class="mdi mdi-content-save"></span>  Save</button>

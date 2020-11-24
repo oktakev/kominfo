@@ -5,13 +5,16 @@ namespace App\Http\Controllers\backend;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use \App\Gallery_categories_model;
 
 class Categories extends Controller
 {
     public function index()
     {
 
-        $kat = DB::table('gallery_categories')->get();
+        $kat = DB::table('gallery_categories')
+        ->orderBy('id_category', 'desc')
+        ->get();
 
         return view('backend.galeri.kategori.index', ['gallery_categories' => $kat]);
     }
@@ -21,9 +24,9 @@ class Categories extends Controller
         return view('backend.galeri.kategori.add-kategori');
     }
 
-    public function edit()
+    public function edit($id)
     {
-        // $galeri = DB::table('gallery_categories')->where('id_category',$id)->get();
-        return view('backend.galeri.kategori.edit-kategori');
+        $kat = DB::table('gallery_categories')->where('id_category',$id)->get();
+        return view('backend.galeri.kategori.edit-kategori',['gallery_categories' => $kat]);
     }
 }

@@ -19,4 +19,10 @@ class LapKategori extends Controller
     {
         return view('backend.laporan.laporanKat.add-laporan');
     }
+
+    public function edit($id)
+    {
+        $lapkat = DB::table('laporan_kategori')->where('id_kategori',$id)->get();
+        return view('backend.laporan.laporanKat.edit-laporan',['laporan_kategori' => $lapkat]);
+    }
 }
