@@ -32,3 +32,7 @@ Route::get('/BeritaHoax', function(){
 Route::get('/BeritaHoaxDetil', function(){
     return view('BeritaHoaxDetil');
 });
+//sinmun
+Route::get('/HomeBerita', function(){
+    return view ('HomeBerita');
+});
