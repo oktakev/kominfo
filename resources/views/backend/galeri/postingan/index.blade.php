@@ -1,11 +1,11 @@
 @extends('backend.template.main')
-@section('insert_caption','Insert New galeri')
-@section('view_caption','View All galeri')
-@section('insert_link','add-galeri')
-@section('view_link','gallery')
+@section('insert_caption','Insert New postingan')
+@section('view_caption','View All postingan')
+@section('insert_link','tambah-postingan')
+@section('view_link','list-postingan')
 @section('view_status','active')
 @section('insert_status','')
-@section('pagetitle','Galeri')
+@section('pagetitle','Postingan')
 @section('admin')
 <div class="row">
     <div class="col-md-12">
@@ -21,14 +21,17 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Kategori</th>
+                                <th>Gambar</th>
+                                <th>Kategori Postingan</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($gallery as $g)
                             <tr>
-                            <th scope="row"></th>
-                                <td></td>
+                            <th scope="row">{{ $loop->iteration}}</th>
+                            <td>{{ $g->img}}</td>
+                            <td>{{ $g->id_category}}</td>
                                 <td>
                                 <div class="dropdown show">
                                         <a class="btn btn-sm btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,12 +39,13 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item"  href="edit-city/">Edit</a>
+                                            <a class="dropdown-item"  href="ubah-postingan/">Edit</a>
+                                            <a class="dropdown-item"  href="">Delete</a>
                                         </div>
                                     </div>
                                 </td>
                             </tr>
-
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

@@ -1,8 +1,8 @@
 @extends('backend.template.main')
 @section('insert_caption','Insert New kategori')
 @section('view_caption','View All kategori')
-@section('insert_link','add-kategori')
-@section('view_link','categories')
+@section('insert_link','tambah-kategori')
+@section('view_link','list-categories')
 @section('view_status','active')
 @section('insert_status','')
 @section('pagetitle','Laporan Kategori')
@@ -26,9 +26,10 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($gallery_categories as $cg )
                             <tr>
-                            <th scope="row"></th>
-                                <td></td>
+                            <th scope="row">{{ $loop->iteration}}</th>
+                            <td>{{ $cg->category_name}}</td>
                                 <td>
                                 <div class="dropdown show">
                                         <a class="btn btn-sm btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,12 +37,13 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item"  href="edit-city/">Edit</a>
+                                            <a class="dropdown-item"  href="ubah-kategori/">Edit</a>
+                                            <a class="dropdown-item"  href="edit-city/">Delete</a>
                                         </div>
                                     </div>
                                 </td>
                             </tr>
-
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
