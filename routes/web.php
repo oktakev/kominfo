@@ -26,3 +26,21 @@ Route::get('/admin/galeri/postingan/ubah-postingan', 'App\Http\Controllers\backe
 Route::get('/admin/galeri/categories/list-categories', 'App\Http\Controllers\backend\Categories@index');
 Route::get('/admin/galeri/categories/tambah-kategori', 'App\Http\Controllers\backend\Categories@add');
 Route::get('/admin/galeri/categories/ubah-kategori', 'App\Http\Controllers\backend\Categories@edit');
+Route::get('/admin/gallery/gallery', 'App\Http\Controllers\backend\Gallery@index');
+Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories@index');
+
+
+
+Route::get('/welcome', function(){
+    return view('welcome');
+});
+Route::get('/BeritaHoax', function(){
+    return view('BeritaHoax');
+});
+Route::get('/BeritaHoaxDetil', function(){
+    return view('BeritaHoaxDetil');
+});
+//sinmun
+Route::get('/HomeBerita', function(){
+    return view ('HomeBerita');
+});
