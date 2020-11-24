@@ -5,7 +5,7 @@
 @section('view_link','list-postingan')
 @section('view_status','active')
 @section('insert_status','')
-@section('pagetitle','Postingan')
+@section('pagetitle','Gallery Postingan')
 @section('admin')
 <div class="row">
     <div class="col-md-12">
