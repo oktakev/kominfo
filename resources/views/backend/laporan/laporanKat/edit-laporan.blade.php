@@ -12,9 +12,10 @@
         <div class="card">
             <div class="card-body">
                 @foreach ($laporan_kategori as $gc)
-                <input type="hidden" name="name" value="{{ $gc->id_kategori }}">
                 <form action="{{url("admin/laporan/laporanKategori/update")}}" method="post">
                 @csrf
+                <input type="hidden" name="id" value="{{ $gc->id_kategori }}">
+
                     <label for="">Nama Kategori</label>
                 <input type="text" class="form-control" name="name" value="{{ $gc->kategori}}">
                     @error('category_name')
