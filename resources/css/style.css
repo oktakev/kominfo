@@ -307,7 +307,7 @@ Header CSS
 
 .sinmun-nav {
   background: transparent;
-  padding-top: 0px;
+  padding-top: 15px;
   font-family: "Heebo", sans-serif;
 }
 
@@ -459,7 +459,7 @@ Header CSS
 }
 
 .sinmun-nav nav .others-options ul li .nav-search form {
-  width: 25%;
+  width: 72%;
   height: auto;
   position: absolute;
   right: 0;
