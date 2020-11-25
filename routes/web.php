@@ -49,6 +49,12 @@ Route::get('/BeritaHoaxDetil', function(){
     return view('frontend/hoax/BeritaHoaxDetil');
 });
 //sinmun
-Route::get('/HomeBerita', function(){
-    return view ('HomeBerita');
+Route::get('/HomeBeritaHoax', function(){
+    return view ('HomeBeritaHoax');
+});
+Route::get('/KategoriHoax', function(){
+    return view ('KategoriHoax');
+});
+Route::get('/PostHoax', function(){
+    return view ('PostHoax');
 });
