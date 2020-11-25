@@ -12,7 +12,9 @@ class Postingan extends Controller
 {
     public function index()
     {
-        $pos = DB::table('gallery')->get();
+        $pos = DB::table('gallery')
+        ->orderBy('id_gallery', "desc")
+        ->get();
 
 
         return view('backend.galeri.postingan.index', ['gallery' => $pos]);

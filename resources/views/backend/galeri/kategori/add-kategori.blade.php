@@ -11,11 +11,11 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-            <form action="{{url("admin/laporan/laporanKategori/tambah-kategori")}}" method="post">
-                @csrf
+            <form action="{{url("admin/galeri/categories/proses")}}" method="post">
+                {{ csrf_field()}}
                     <label for="">Nama Kategori</label>
-                    <input type="text" class="form-control @error('category_name') is-invalid @enderror" name="category_name">
-                    @error('category_name')
+                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name">
+                    @error('name')
                         <div class="invalid-feedback"> {{ $message }} </div>
                         @enderror
                     <br>

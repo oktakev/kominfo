@@ -29,4 +29,22 @@ class Categories extends Controller
         $kat = DB::table('gallery_categories')->where('id_category',$id)->get();
         return view('backend.galeri.kategori.edit-kategori',['gallery_categories' => $kat]);
     }
+
+    public function update(Request $request){
+        
+        DB::table('gallery_categories')->where('id_category', $request->id)->update([
+            'category_name' => $request->nama,
+        ]);
+
+        return redirect('admin/galeri/categories/list-categories');
+    }
+
+    public function proses(Request $request)
+    {
+        DB::table('gallery_categories')->insert([
+            'category_name' => $request->name
+        ]);
+
+        return redirect('admin/galeri/categories/list-categories');
+    }
 }

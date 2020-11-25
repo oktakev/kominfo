@@ -11,21 +11,21 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-            <form action="{{ url('admin/laporan/laporan-isu/tambah-kategori') }}" method="post">
+            <form action="{{ url('admin/laporan/laporanKategori/proses') }}" method="post">
                 {{ csrf_field()}}
                     <div class="form-group">
                         <div class="row">
                             <div class="col-md-12 m-t-15">
                                 <label for="">Kategori</label>
-                                <input type="text" name="kategori" class="form-control  @error('kategori') is-invalid @enderror" placeholder="Kategori"
-                                value="{{ old('kategori')}}">
-                                @error('kategori')
+                                <input type="text" name="name" class="form-control  @error('name') is-invalid @enderror" placeholder="Name"
+                                value="{{ old('name')}}">
+                                @error('name')
                                     <div class="invalid-feedback"> {{ $message}} </div>
                                 @enderror
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit"><span class="mdi mdi-content-save"></span>  Save</button>
+                    <button class="btn btn-primary" type="submit" value="Simpan Data"><span class="mdi mdi-content-save"></span> Save</button>
                     <button class="btn btn-secondary" type="reset"><span class="mdi mdi-refresh"></span> Reset</button>
                 </form>
             </div>
