@@ -20,8 +20,17 @@ Route::get('/admin/laporan/laporanIsu/list-isu', 'App\Http\Controllers\backend\L
 Route::get('/admin/laporan/laporanIsu/tambah-isu', 'App\Http\Controllers\backend\LapIsu@add');
 Route::get('/admin/laporan/laporanKategori/list-kategori', 'App\Http\Controllers\backend\LapKategori@index');
 Route::get('/admin/laporan/laporanKategori/tambah-kategori', 'App\Http\Controllers\backend\LapKategori@add');
+Route::get('/admin/galeri/postingan/list-postingan', 'App\Http\Controllers\backend\Postingan@index');
+Route::get('/admin/galeri/postingan/tambah-postingan', 'App\Http\Controllers\backend\Postingan@add');
+Route::get('/admin/galeri/postingan/edit-postingan/{id}', 'App\Http\Controllers\backend\Postingan@edit');
+Route::get('/admin/galeri/categories/list-categories', 'App\Http\Controllers\backend\Categories@index');
+Route::get('/admin/galeri/categories/tambah-kategori', 'App\Http\Controllers\backend\Categories@add');
+Route::get('/admin/galeri/categories/edit-kategori/{id}', 'App\Http\Controllers\backend\Categories@edit');
+Route::get('/admin/laporan/laporanKategori/edit-kategori/{id}', 'App\Http\Controllers\backend\LapKategori@edit');
 Route::get('/admin/gallery/gallery', 'App\Http\Controllers\backend\Gallery@index');
 Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories@index');
+
+
 
 Route::get('/welcome', function(){
     return view('welcome');

@@ -213,10 +213,10 @@
                                 <li class="sidebar-item"><a href="{{ url('admin/laporan/laporanKategori/list-kategori') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Laporan Kategori </span></a></li>
                               </ul>
                         </li>
-                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Galeri</span></a>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Gallery</span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="{{ url('admin/gallery/gallery') }}" class="sidebar-link"><i class="mdi mdi-google-photos"></i><span class="hide-menu"> Galeri </span></a></li>
-                                <li class="sidebar-item"><a href="{{ url('admin/gallery/categories') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu"> Kategori </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/galeri/postingan/list-postingan') }}" class="sidebar-link"><i class="mdi mdi-google-photos"></i><span class="hide-menu">Gallery Postingan </span></a></li>
+                                <li class="sidebar-item"><a href="{{ url('admin/galeri/categories/list-categories') }}" class="sidebar-link"><i class="mdi mdi-format-list-bulleted-type"></i><span class="hide-menu">Gallery Kategori </span></a></li>
                             </ul>
                         </li>
                     </ul>
