@@ -35,11 +35,11 @@ Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories
 Route::get('/welcome', function(){
     return view('welcome');
 });
-Route::get('/BeritaHoax', function(){
-    return view('BeritaHoax');
+Route::get('/berita_hoax', function(){
+    return view('frontend/hoax/hoax');
 });
 Route::get('/BeritaHoaxDetil', function(){
-    return view('BeritaHoaxDetil');
+    return view('frontend/hoax/BeritaHoaxDetil');
 });
 //sinmun
 Route::get('/HomeBerita', function(){
