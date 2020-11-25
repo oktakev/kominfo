@@ -15,7 +15,6 @@
                 <input type="hidden" name="id" value="{{ $gc->id_kategori }}">
                 <form action="{{url("admin/laporan/kategori/update")}}" method="post">
                 @csrf
-                <input type="hidden" name="" value="">
                     <label for="">Nama Kategori</label>
                 <input type="text" class="form-control" name="" value="">
                     @error('category_name')

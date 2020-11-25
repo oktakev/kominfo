@@ -30,7 +30,7 @@
                             @foreach($gallery as $g)
                             <tr>
                             <th scope="row">{{ $loop->iteration}}</th>
-                            <td>{{ $g->img}}</td>
+                            <td><img style="height: 150px; width: 200px;" src="{{ url('images/gallery/'.$g->img) }}" alt="" class="img-fluid transition"></td>
                             <td>{{ $g->id_category}}</td>
                                 <td>
                                 <div class="dropdown show">
