@@ -1,6 +1,6 @@
 @extends('backend.template.main')
-@section('insert_caption','Insert New postingan')
-@section('view_caption','View All postingan')
+@section('insert_caption','Tambah Postingan Baru')
+@section('view_caption','Lihat Semua Postingan')
 @section('insert_link','tambah-postingan')
 @section('view_link','list-postingan')
 @section('view_status','')

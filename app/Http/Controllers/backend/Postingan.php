@@ -13,6 +13,8 @@ class Postingan extends Controller
     public function index()
     {
         $pos = DB::table('gallery')
+        ->Join('gallery_categories', 'gallery_categories.id_category', 'gallery.id_category')
+        ->Select('gallery.id_gallery', 'gallery.img', 'gallery_categories.category_name')
         ->orderBy('id_gallery', "desc")
         ->get();
 

@@ -1,6 +1,6 @@
 @extends('backend.template.main')
 @section('insert_caption','Ubah kategori')
-@section('view_caption','View All kategori')
+@section('view_caption','Lihat Semua Kategori')
 @section('insert_link',url("admin/galeri/categories/tambah-kategori"))
 @section('view_link',url("admin/galeri/categories/list-categories"))
 @section('view_status','')

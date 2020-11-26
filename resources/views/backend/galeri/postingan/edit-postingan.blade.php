@@ -1,6 +1,6 @@
 @extends('backend.template.main')
-@section('insert_caption','Edit postingan')
-@section('view_caption','View All postingan')
+@section('insert_caption','Ubah Postingan')
+@section('view_caption','Lihat Semua Postingan')
 @section('insert_link',url("admin/galeri/postingan/tambah-postingan"))
 @section('view_link',url("admin/galeri/postingan/list-postingan"))
 @section('view_status','')

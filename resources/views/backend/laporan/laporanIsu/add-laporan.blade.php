@@ -1,6 +1,6 @@
 @extends('backend.template.main')
-@section('insert_caption','Insert New hoax')
-@section('view_caption','View All hoax')
+@section('insert_caption','Tambah Laporan Hoaks')
+@section('view_caption','Lihat Semua Hoaks')
 @section('insert_link','tambah-isu')
 @section('view_link','list-isu')
 @section('view_status','')
