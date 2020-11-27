@@ -26,7 +26,7 @@
                                 <th>Link Sumber</th>
                                 <th>Tanggal Upload</th>
                                <th>Gambar</th>
-                                <th>deskripsi</th>
+                                <th>Content</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -47,7 +47,7 @@
                                             Options
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item"  href="edit-city/">Edit</a>
+                                            <a class="dropdown-item"  href="edit-isu/{{$h->id_hoax}}">Edit</a>
                                             <a class="dropdown-item"  href="edit-city/">Hapus</a>
                                         </div>
                                     </div>

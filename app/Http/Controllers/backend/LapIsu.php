@@ -57,4 +57,28 @@ class LapIsu extends Controller
         $lap_categories = Laporan_kategori_model::all(['id_kategori','kategori']);
         return view('backend.laporan.laporanIsu.add-laporan',['gallery' => $gallery, 'categories' => $gallery_categories, 'laporan_kategori' => $lap_categories]);
     }
+
+    public function edit($id)
+    {
+        $gallery = Gallery_model::all();
+        $gallery_categories = Gallery_categories_model::all();
+        $lap_categories = Laporan_kategori_model::all(['id_kategori','kategori']);
+        $laphoax = DB::table('hoax')->where('id_hoax',$id)->get();
+        return view('backend.laporan.laporanIsu.edit-isu',['gallery' => $gallery, 'categories' => $gallery_categories, 'laporan_kategori' => $lap_categories,'hoax' => $laphoax]);
+    }
+
+    public function update(Request $request)
+    {
+
+        DB::table('hoax')->where('id_hoax',$request->id)->update([
+            'judul' => $request->judul,
+            'id_kategori' => $request->id_kategori,
+            'link_sumber' => $request->link_sumber,
+            'tanggal_upload'=> Carbon::now(),
+            'gambar' => $request->id_gallery,
+            'content' => $request->content
+        ]);
+        return redirect('/admin/laporan/laporanIsu/list-isu')->with('status', 'Laporan Hoaks berhasil ditambahkan');
+
+    }
 }
