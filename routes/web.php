@@ -18,6 +18,7 @@ Route::get('/admin/dashboard', 'App\Http\Controllers\backend\Admin@dashboard');
 Route::get('/admin/logout', 'App\Http\Controllers\backend\Admin@logout');
 Route::get('/admin/laporan/laporanIsu/list-isu', 'App\Http\Controllers\backend\LapIsu@index');
 Route::get('/admin/laporan/laporanIsu/tambah-isu', 'App\Http\Controllers\backend\LapIsu@add');
+Route::post('/admin/laporan/laporanIsu/tambah-isu', 'App\Http\Controllers\backend\LapIsu@proses');
 Route::get('/admin/laporan/laporanKategori/list-kategori', 'App\Http\Controllers\backend\LapKategori@index');
 Route::get('/admin/laporan/laporanKategori/tambah-kategori', 'App\Http\Controllers\backend\LapKategori@add');
 Route::post('/admin/laporan/laporanKategori/proses', 'App\Http\Controllers\backend\LapKategori@proses');

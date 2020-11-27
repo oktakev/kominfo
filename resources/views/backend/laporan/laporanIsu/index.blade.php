@@ -25,7 +25,7 @@
                                 <th>Kategori</th>
                                 <th>Link Sumber</th>
                                 <th>Tanggal Upload</th>
-                               <!-- <th>Gambar</th>-->
+                               <th>Gambar</th>
                                 <th>deskripsi</th>
                                 <th>Action</th>
                             </tr>
@@ -39,6 +39,7 @@
                             <td>{{ $h->link_sumber }}</td>
                             <td>{{ $h->tanggal_upload }}</td>
                             <!--<td>{{ $h->gambar}}</td>-->
+                            <td><img style="height: 200px; width: 200px;" src="{{ url('/public/images/gallery/'.$h->img) }}" alt="" class="img-fluid transition"></td>
                             <td>{{substr(strip_tags($h->content),0,100). ' ...'}}
                                 <td>
                                 <div class="dropdown show">
