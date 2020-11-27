@@ -49,4 +49,11 @@ class LapKategori extends Controller
 
         return redirect('admin/laporan/laporanKategori/list-kategori');
     }
+
+    public function delete($id)
+    {
+        DB::table('laporan_kategori')->where('id_kategori', $id)->delete();
+
+        return redirect('admin/laporan/laporanKategori/list-kategori');
+    }
 }

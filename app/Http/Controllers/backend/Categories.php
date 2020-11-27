@@ -47,4 +47,11 @@ class Categories extends Controller
 
         return redirect('admin/galeri/categories/list-categories');
     }
+
+    public function delete($id)
+    {
+        DB::table('gallery_categories')->where('id_category', $id)->delete();
+
+        return redirect('admin/galeri/categories/list-categories');
+    }
 }

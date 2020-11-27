@@ -58,4 +58,10 @@ class LapIsu extends Controller
         return view('backend.laporan.laporanIsu.add-laporan',['gallery' => $gallery, 'categories' => $gallery_categories, 'laporan_kategori' => $lap_categories]);
     }
 
+    public function delete($id)
+    {
+        DB::table('hoax')->where('id_hoax', $id)->delete();
+
+        return redirect('admin/laporan/laporanIsu/list-isu');
+    }
 }

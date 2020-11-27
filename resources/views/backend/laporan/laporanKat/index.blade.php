@@ -38,6 +38,7 @@
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                             <a class="dropdown-item"  href="edit-kategori/{{$k->id_kategori}}">Edit</a>
+                                            <a class="dropdown-item"  href="delete/{{$k->id_kategori}}">Hapus</a>
                                         </div>
                                     </div>
                                 </td>
