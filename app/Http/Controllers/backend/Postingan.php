@@ -80,4 +80,11 @@ class Postingan extends Controller
         ]);
         return redirect('/admin/galeri/postingan/list-postingan');
     }
+
+    public function delete($id)
+    {
+        DB::table('gallery')->where('id_gallery', $id)->delete();
+
+        return redirect('admin/galeri/postingan/list-postingan');
+    }
 }

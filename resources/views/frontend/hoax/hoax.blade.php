@@ -253,17 +253,17 @@
                             <div class="col_in __padd-right">
                                 <div class="posts_list with_sidebar">
                                     <ul class="post_list_ul no-paginate">
+                                    @foreach($beritahoax as $h)
+                                    <!-- {{ $loop->iteration }} -->
                                         <li id="post-1853"
                                             class="stm_post_info post-1853 post type-post status-publish format-standard has-post-thumbnail hentry category-berita-terbaru">
-                                            <h4 class="">Lindungi Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar
-                                                Sosialisasi di Diskominfo Bondowoso</h4>
+                                            <h4 class="">{{ $h->judul}}</h4>
                                             <div class="stm_post_details clearfix">
                                                 <ul class="clearfix">
                                                     <li class="post_date">
-                                                        <i class="fa fa fa-clock-o"></i>
-                                                        April 10, 2019 </li>
-                                                    <li class="post_by">Posted by: <span>admin berita hoaks</span></li>
-                                                    <li class="post_cat">Category: <span>Berita Hoaks</span>
+                                                        <i class="fa fa fa-clock-o"></i>{{ $h->tanggal_upload }}</li>
+                                                    <!-- <li class="post_by">Posted by: <span>admin berita hoaks</span></li> -->
+                                                    <li class="post_cat">Category: <span>{{ $h->kategori }}</span>
                                                     </li>
                                                 </ul>
                                                 <!-- <div class="comments_num">
@@ -288,42 +288,9 @@
                                                 </a>
                                             </div>
                                         </li>
+                                        @endforeach
 
-                                        <li id="post-1844"
-                                            class="stm_post_info post-1844 post type-post status-publish format-standard has-post-thumbnail hentry category-berita-terbaru">
-                                            <h4 class="stripe_4">Diskominfo Bondowoso Kenalkan Aplikasi SINKA</h4>
-                                            <div class="stm_post_details clearfix">
-                                                <ul class="clearfix">
-                                                    <li class="post_date">
-                                                        <i class="fa fa fa-clock-o"></i>
-                                                        April 7, 2019 </li>
-                                                    <li class="post_by">Posted by: <span>admin berita hoaks</span></li>
-                                                    <li class="post_cat">Category: <span>Berita Disinformasi</span>
-                                                    </li>
-                                                </ul>
-                                                <!-- <div class="comments_num">
-                                                    <a
-                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html#respond"><i
-                                                            class="fa fa-comment-o"></i>Tidak ada Komentar </a>
-                                                </div> -->
-                                            </div>
-                                            <div class="post_thumbnail">
-                                                <img width="810" height="536"
-                                                    src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA.jpg"
-                                                    class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
-                                                    alt="" loading="lazy"
-                                                    srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA.jpg 810w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-300x199.jpg 300w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-768x508.jpg 768w"
-                                                    sizes="(max-width: 810px) 100vw, 810px" /> </div>
-                                            <div class="post_excerpt">
-                                            </div>
-                                            <div class="post_read_more">
-                                                <a class="button bordered icon_right"
-                                                    href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">
-                                                    read more <i class="fa fa-chevron-right"></i>
-                                                </a>
-                                            </div>
-
-                                        </li>
+                                        
                                       
                                         
                                         <div class="post_read_more">

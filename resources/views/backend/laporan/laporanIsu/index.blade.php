@@ -48,7 +48,7 @@
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                             <a class="dropdown-item"  href="edit-isu/{{$h->id_hoax}}">Edit</a>
-                                            <a class="dropdown-item"  href="edit-city/">Hapus</a>
+                                            <a class="dropdown-item"  href="delete/{{ $h->id_hoax}}">Hapus</a>
                                         </div>
                                     </div>
                                 </td>

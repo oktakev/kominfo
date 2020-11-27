@@ -79,6 +79,12 @@ class LapIsu extends Controller
             'content' => $request->content
         ]);
         return redirect('/admin/laporan/laporanIsu/list-isu')->with('status', 'Laporan Hoaks berhasil ditambahkan');
+        }
+        
+    public function delete($id)
+    {
+        DB::table('hoax')->where('id_hoax', $id)->delete();
 
+        return redirect('admin/laporan/laporanIsu/list-isu');
     }
 }

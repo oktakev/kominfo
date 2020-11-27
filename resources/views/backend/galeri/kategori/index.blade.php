@@ -38,7 +38,7 @@
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <a class="dropdown-item" href="edit-kategori/{{$cg->id_category}}">Edit</a>
-                                            <a class="dropdown-item"  href="edit-city/">Delete</a>
+                                        <a class="dropdown-item"  href="delete/{{ $cg->id_category}}">Delete</a>
                                         </div>
                                     </div>
                                 </td>

@@ -21,16 +21,20 @@ Route::get('/admin/laporan/laporanIsu/tambah-isu', 'App\Http\Controllers\backend
 Route::post('/admin/laporan/laporanIsu/tambah-isu', 'App\Http\Controllers\backend\LapIsu@proses');
 Route::post('/admin/laporan/laporanIsu/update', 'App\Http\Controllers\backend\LapIsu@update');
 Route::get('/admin/laporan/laporanIsu/edit-isu/{id}', 'App\Http\Controllers\backend\LapIsu@edit');
+Route::get('/admin/laporan/laporanIsu/delete/{id}', 'App\Http\Controllers\backend\LapIsu@delete');
 Route::get('/admin/laporan/laporanKategori/list-kategori', 'App\Http\Controllers\backend\LapKategori@index');
 Route::get('/admin/laporan/laporanKategori/tambah-kategori', 'App\Http\Controllers\backend\LapKategori@add');
 Route::post('/admin/laporan/laporanKategori/proses', 'App\Http\Controllers\backend\LapKategori@proses');
 Route::post('/admin/laporan/laporanKategori/update', 'App\Http\Controllers\backend\LapKategori@update');
 Route::get('/admin/laporan/laporanKategori/edit-kategori/{id}', 'App\Http\Controllers\backend\LapKategori@edit');
+Route::get('/admin/laporan/laporanKategori/delete/{id}', 'App\Http\Controllers\backend\LapKategori@delete');
 Route::get('/admin/galeri/postingan/list-postingan', 'App\Http\Controllers\backend\Postingan@index');
 Route::get('/admin/galeri/postingan/tambah-postingan', 'App\Http\Controllers\backend\Postingan@add');
 Route::get('/admin/galeri/postingan/edit-postingan/{id}', 'App\Http\Controllers\backend\Postingan@edit');
+Route::get('/admin/galeri/postingan/delete/{id}', 'App\Http\Controllers\backend\Postingan@delete');
 Route::get('/admin/galeri/categories/list-categories', 'App\Http\Controllers\backend\Categories@index');
 Route::get('/admin/galeri/categories/tambah-kategori', 'App\Http\Controllers\backend\Categories@add');
+Route::get('/admin/galeri/categories/delete/{id}', 'App\Http\Controllers\backend\Categories@delete');
 Route::post('/admin/galeri/categories/proses', 'App\Http\Controllers\backend\Categories@proses');
 Route::post('/admin/galeri/categories/update', 'App\Http\Controllers\backend\Categories@update');
 Route::get('/admin/galeri/categories/edit-kategori/{id}', 'App\Http\Controllers\backend\Categories@edit');
@@ -45,9 +49,9 @@ Route::get('/admin/gallery/bycategory', 'backend\gallery\Gallery@bycategory');
 Route::get('/welcome', function(){
     return view('welcome');
 });
-Route::get('/berita_hoax', function(){
-    return view('frontend/hoax/hoax');
-});
+// Route::get('/berita_hoax', function(){
+//     return view('frontend/hoax/hoax');
+// });
 Route::get('/BeritaHoaxDetil', function(){
     return view('frontend/hoax/BeritaHoaxDetil');
 });
@@ -61,3 +65,5 @@ Route::get('/KategoriHoax', function(){
 Route::get('/PostHoax', function(){
     return view ('PostHoax');
 });
+
+Route::get('/berita_hoax', 'App\Http\Controllers\backend\LapIsu@index2');
