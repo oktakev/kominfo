@@ -43,9 +43,9 @@ Route::get('/admin/gallery/bycategory', 'backend\gallery\Gallery@bycategory');
 Route::get('/welcome', function(){
     return view('welcome');
 });
-Route::get('/berita_hoax', function(){
-    return view('frontend/hoax/hoax');
-});
+// Route::get('/berita_hoax', function(){
+//     return view('frontend/hoax/hoax');
+// });
 Route::get('/BeritaHoaxDetil', function(){
     return view('frontend/hoax/BeritaHoaxDetil');
 });
@@ -59,3 +59,5 @@ Route::get('/KategoriHoax', function(){
 Route::get('/PostHoax', function(){
     return view ('PostHoax');
 });
+
+Route::get('/berita_hoax', 'App\Http\Controllers\backend\LapIsu@index2');

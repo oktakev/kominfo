@@ -57,4 +57,5 @@ class LapIsu extends Controller
         $lap_categories = Laporan_kategori_model::all(['id_kategori','kategori']);
         return view('backend.laporan.laporanIsu.add-laporan',['gallery' => $gallery, 'categories' => $gallery_categories, 'laporan_kategori' => $lap_categories]);
     }
+
 }
