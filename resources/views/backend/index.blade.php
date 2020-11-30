@@ -64,7 +64,7 @@
     <div class="col-md-12">
         <div class="card">
             <div class="box">
-                <h5 class="color-orange">Artikel Terpopuler Pada Januari</h5>
+                <h5 class="color-orange">Artikel Terpopuler</h5>
                 <div class="table-responsive">
                 <table class="table table-hover">
                         <thead>

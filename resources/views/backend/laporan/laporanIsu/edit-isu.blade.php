@@ -26,7 +26,6 @@
                             <label for="">Kategori</label>
                                 <select class="select form-control" name="id_kategori" id="">
                                 value="{{ old('id_kategori')}}">
-                                    <option value="">---Select---</option>
                                     @foreach($laporan_kategori as $l)
                                     <option value="{{ $l->id_kategori }}">{{ $l->kategori}}</option>
                                     @endforeach
@@ -42,7 +41,7 @@
                             </div>
                             <div class="col-md-12 m-t-30">
                                 <label for="">Content</label>
-                                <textarea class="form-control" name="content" id="konten" cols="30" rows="10">{{ $l->content}}</textarea>
+                                <textarea class="form-control" name="content" id="konten" cols="30" rows="10">{{ $h->content}}</textarea>
                             </div>
                         </div>
                     </div>
