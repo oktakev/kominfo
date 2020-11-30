@@ -21,7 +21,7 @@ class LapIsu extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.link_sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
+        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->orderBy('id_hoax', 'desc')
         ->get();
         return view('backend.laporan.laporanIsu.index', ['hoax' => $laphoax]);
@@ -32,7 +32,7 @@ class LapIsu extends Controller
                  $request->validate([
                     'judul' => 'required',
                     'id_kategori' => 'required',
-                    'link_sumber' => 'required',
+                    'sumber' => 'required',
                     'id_gallery' => 'required',
                     'content' => 'required'
             ]);
@@ -41,7 +41,7 @@ class LapIsu extends Controller
                 'judul' => $request->judul,
                 'id_kategori' => $request->id_kategori,
                 'tanggal_upload'=> Carbon::now(),
-                'link_sumber' => $request->link_sumber,
+                'sumber' => $request->sumber,
                 'gambar' => $request->id_gallery,
                 'content' => $request->content
 
@@ -73,7 +73,7 @@ class LapIsu extends Controller
         DB::table('hoax')->where('id_hoax',$request->id)->update([
             'judul' => $request->judul,
             'id_kategori' => $request->id_kategori,
-            'link_sumber' => $request->link_sumber,
+            'sumber' => $request->sumber,
             'tanggal_upload'=> Carbon::now(),
             'gambar' => $request->id_gallery,
             'content' => $request->content

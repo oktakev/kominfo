@@ -36,7 +36,7 @@
                             <th scope="row">{{ $loop->iteration }}</th>
                             <td>{{ $h->judul}}</td>
                             <td>{{ $h->kategori }}</td>
-                            <td>{{ $h->link_sumber }}</td>
+                            <td>{{ $h->sumber }}</td>
                             <td>{{ $h->tanggal_upload }}</td>
                             <td><img style="height: 100px; width: 100px;" src="{{ url('/images/gallery/'.$h->img) }}" alt="" class="img-fluid transition"></td>
                             <td>{{substr(strip_tags($h->content),0,100). ' ...'}}

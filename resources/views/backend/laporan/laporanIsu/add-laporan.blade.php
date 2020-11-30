@@ -38,9 +38,9 @@
                                 @enderror
                                 </div>
                             <div class="col-md-12 m-t-15">
-                                <label for="">Link</label>
-                                <input type="text" name="link_sumber" class="form-control @error('link_sumber') is-invalid @enderror" value="{{ old('link_sumber')}}">
-                                @error('link_sumber')
+                                <label for="">Sumber</label>
+                                <input type="text" name="sumber" class="form-control @error('sumber') is-invalid @enderror" value="{{ old('sumber')}}">
+                                @error('sumber')
                                     <div class="invalid-feedback"> {{ $message}} </div>
                                 @enderror
                             </div>
