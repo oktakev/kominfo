@@ -17,9 +17,9 @@
                         <div class="row">
                             <div class="col-md-12 m-t-15">
                                 <label for="">Kategori</label>
-                                <input type="text" name="name" class="form-control  @error('name') is-invalid @enderror" placeholder="Name"
-                                value="{{ old('name')}}">
-                                @error('name')
+                                <input type="text" name="kategori" class="form-control  @error('kategori') is-invalid @enderror" placeholder="Name"
+                                value="{{ old('kategori')}}">
+                                @error('kategori')
                                     <div class="invalid-feedback"> {{ $message}} </div>
                                 @enderror
                             </div>

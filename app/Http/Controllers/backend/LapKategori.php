@@ -34,6 +34,10 @@ class LapKategori extends Controller
 
     public function proses(Request $request)
     {
+        $request->validate([
+            'kategori' => 'required'
+        ]);
+
         DB:: table('laporan_kategori')->insert([
             'kategori' => $request->name
         ]);

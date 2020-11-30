@@ -32,7 +32,8 @@ class Postingan extends Controller
     {
                 //validasi
                 $request->validate([
-                    'img' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:3072'
+                    'img' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:3072',
+                    'id_category' => 'required'
                 ]);
                 //mengambil informasi
                 $img = $request->file('img');

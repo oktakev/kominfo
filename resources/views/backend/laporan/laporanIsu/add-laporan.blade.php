@@ -26,14 +26,14 @@
                             </div>
                             <div class="col-md-6 m-t-15">
                                 <label for="">Kategori</label>
-                                <select class="select form-control @error('id_kategori') is-invalid @enderror" name="id_kategori" id=""
+                                <select class="select form-control @error('id_kategori') is-invalid @enderror" name= "id_kategori" id=""
                                 value="{{ old('id_kategori')}}">
                                     <option value="">---Select---</option>
                                     @foreach($laporan_kategori as $l)
                                     <option value="{{ $l->id_kategori }}">{{ $l->kategori}}</option>
                                     @endforeach
                                 </select>
-                                 @error('Category')
+                                 @error('id_kategori')
                                     <div class="invalid-feedback"> {{ $message}} </div>
                                 @enderror
                                 </div>

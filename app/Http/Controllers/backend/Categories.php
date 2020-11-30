@@ -41,6 +41,11 @@ class Categories extends Controller
 
     public function proses(Request $request)
     {
+
+        $request->validate([
+            'category_name'=> 'required'
+        ]);
+
         DB::table('gallery_categories')->insert([
             'category_name' => $request->name
         ]);

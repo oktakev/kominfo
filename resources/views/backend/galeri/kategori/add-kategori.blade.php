@@ -14,8 +14,8 @@
             <form action="{{url("admin/galeri/categories/proses")}}" method="post">
                 {{ csrf_field()}}
                     <label for="">Nama Kategori</label>
-                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name">
-                    @error('name')
+                    <input type="text" class="form-control @error('category_name') is-invalid @enderror" name="category_name">
+                    @error('category_name')
                         <div class="invalid-feedback"> {{ $message }} </div>
                         @enderror
                     <br>
