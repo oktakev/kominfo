@@ -39,10 +39,10 @@ class LapKategori extends Controller
         ]);
 
         DB:: table('laporan_kategori')->insert([
-            'kategori' => $request->name
+            'kategori' => $request->kategori
         ]);
 
-        return redirect('admin/laporan/laporanKategori/list-kategori');
+        return redirect('admin/laporan/laporanKategori/list-kategori')->with('status', 'Laporan Kategori berhasil ditambah');
     }
 
     public function update(Request $request)
@@ -51,7 +51,7 @@ class LapKategori extends Controller
             'kategori' => $request->name
         ]);
 
-        return redirect('admin/laporan/laporanKategori/list-kategori');
+        return redirect('admin/laporan/laporanKategori/list-kategori')->with('status', 'Laporan Kategori berhasil diedit');
     }
 
     public function delete($id)

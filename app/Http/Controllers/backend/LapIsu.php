@@ -78,7 +78,7 @@ class LapIsu extends Controller
             'gambar' => $request->id_gallery,
             'content' => $request->content
         ]);
-        return redirect('/admin/laporan/laporanIsu/list-isu')->with('status', 'Laporan Hoaks berhasil ditambahkan');
+        return redirect('/admin/laporan/laporanIsu/list-isu')->with('status', 'Laporan Hoaks berhasil diedit');
         }
         
     public function delete($id)

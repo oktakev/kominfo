@@ -79,7 +79,7 @@ class Postingan extends Controller
             'id_category' => $request->id_category
             
         ]);
-        return redirect('/admin/galeri/postingan/list-postingan');
+        return redirect('/admin/galeri/postingan/list-postingan')->with('status', "Galeri berhasil diedit");
     }
 
     public function delete($id)

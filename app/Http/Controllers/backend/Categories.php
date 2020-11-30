@@ -36,7 +36,7 @@ class Categories extends Controller
             'category_name' => $request->nama,
         ]);
 
-        return redirect('admin/galeri/categories/list-categories');
+        return redirect('admin/galeri/categories/list-categories')->with('status', 'Galeri Kategori Berhasil diedit');
     }
 
     public function proses(Request $request)
@@ -47,10 +47,10 @@ class Categories extends Controller
         ]);
 
         DB::table('gallery_categories')->insert([
-            'category_name' => $request->name
+            'category_name' => $request->category_name
         ]);
 
-        return redirect('admin/galeri/categories/list-categories');
+        return redirect('admin/galeri/categories/list-categories')->with('status', 'Galeri Kategori Berhasil ditambah');
     }
 
     public function delete($id)
