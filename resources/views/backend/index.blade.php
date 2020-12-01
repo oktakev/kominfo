@@ -1,10 +1,4 @@
 @extends('backend.template.main')
-@section('insert_caption','')
-@section('view_caption','')
-@section('insert_link','')
-@section('view_link','')
-@section('view_status','')
-@section('insert_status','')
 @section('admin')
 <div class="row">
     <!-- Column -->
@@ -15,7 +9,7 @@
                 <h5 class="text-white">
                     Jumlah Laporan Hoaks                    
                     <br>
-                    0
+                    {{$laphoaks[0]->ttl}}
                 </h5>
             </div>
         </div>
@@ -27,7 +21,7 @@
                 <h5 class="text-white">
                 Jumlah Laporan Fakta 
                     <br>
-                    0
+                    {{$lapfakta[0]->ttl}}
                 </h5>
             </div>
         </div>
@@ -38,9 +32,9 @@
             <div class="box bg-success text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                    Jumlah Total Pengunjung
+                    Jumlah Total Laporan
                     <br>
-                    0
+                    {{$hoaks[0]->ttl}}
                 </h5>
             </div>
         </div>
@@ -53,7 +47,7 @@
                 <h5 class="text-white">
                     Jumlah Total Galeri
                     <br>
-                    0
+                    {{$galeri[0]->ttl}}
                 </h5>
             </div>
         </div>
@@ -64,7 +58,7 @@
     <div class="col-md-12">
         <div class="card">
             <div class="box">
-                <h5 class="color-orange">Artikel Terpopuler</h5>
+                <h5 class="color-orange">Laporan Terpopuler</h5>
                 <div class="table-responsive">
                 <table class="table table-hover">
                         <thead>
