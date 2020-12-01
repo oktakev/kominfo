@@ -524,7 +524,7 @@ Header CSS
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #ffffff !important;
+  background-color: #007bff !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -3950,7 +3950,7 @@ Sidebar CSS
 News Details CSS
 =================================================*/
 .news-details-area {
-  padding-top: 5px;
+  padding-top: 25px !important;
 }
 
 .news-details .article-content {

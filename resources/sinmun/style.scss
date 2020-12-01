@@ -3377,7 +3377,7 @@ Page Title CSS
     }
 }
 .breadcrumb {
-    padding: 15px 25px;
+    padding: 25px 25px !important;
     margin: 0;
     list-style-type: none;
     margin-bottom: 30px;
@@ -3795,7 +3795,8 @@ Sidebar CSS
 News Details CSS
 =================================================*/
 .news-details-area {
-    padding-top: 5px;
+    padding-top: 25px !important;
+
 }
 .news-details {
     .article-content {

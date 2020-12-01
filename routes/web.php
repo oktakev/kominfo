@@ -57,13 +57,18 @@ Route::get('/BeritaHoaxDetil', function(){
 });
 //sinmun
 Route::get('/HomeBeritaHoax', function(){
-    return view ('HomeBeritaHoax');
+    return view ('newfrontend/HomeBeritaHoax');
 });
 Route::get('/KategoriHoax', function(){
-    return view ('KategoriHoax');
+    return view ('newfrontend/KategoriHoax');
 });
 Route::get('/PostHoax', function(){
+<<<<<<< Updated upstream
     return view ('PostHoax');
 });
 
 Route::get('/berita_hoax', 'App\Http\Controllers\backend\LapIsu@index2');
+=======
+    return view ('newfrontend/PostHoax');
+});
+>>>>>>> Stashed changes
