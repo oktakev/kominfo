@@ -62,13 +62,8 @@ Route::get('/HomeBeritaHoax', function(){
 Route::get('/KategoriHoax', function(){
     return view ('newfrontend/KategoriHoax');
 });
-Route::get('/PostHoax', function(){
-<<<<<<< Updated upstream
-    return view ('PostHoax');
-});
-
-Route::get('/berita_hoax', 'App\Http\Controllers\backend\LapIsu@index2');
-=======
+Route::get('/PostHoax', function()
+{
     return view ('newfrontend/PostHoax');
 });
->>>>>>> Stashed changes
+

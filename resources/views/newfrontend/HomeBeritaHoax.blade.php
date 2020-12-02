@@ -42,7 +42,7 @@
                                 <p>Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur
                                     elementum nunc.</p>
 
-                                <a href="#" class="read-more-btn"><span>Read More</span> <i
+                                <a href="PostHoax" class="read-more-btn"><span>Read More</span> <i
                                         class="icofont-arrow-right"></i></a>
                             </div>
                         </div>
