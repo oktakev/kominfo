@@ -34,7 +34,7 @@ class hoax extends Controller
         ,'hoax.link_sumber','hoax.tanggal_upload','hoax.gambar','hoax.content')
         ->orderBy('id_hoax', 'desc')
         ->get();
-        return view('frontend.hoax.BeritaHoaxDetil', ['detilhoax' => $detilhoax]);
+        return view('frontend.hoax.BeritaHoaxDetil', ['hoax' => $detilhoax]);
     }
 
     public function edit2($id)

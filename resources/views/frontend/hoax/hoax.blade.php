@@ -44,7 +44,7 @@
                                             </div>
                                             <div class="post_read_more">
                                                 <a class="button bordered icon_right"
-                                                    href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html">
+                                                    href="detil_hoax/{{ $h->id_hoax }}">
                                                     read more <i class="fa fa-chevron-right"></i>
                                                 </a>
                                             </div>
