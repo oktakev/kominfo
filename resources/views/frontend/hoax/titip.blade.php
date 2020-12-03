@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="https://kominfo.bondowosokab.go.id/xmlrpc.php">
-    <title>Berita</title>
+    <title>Lindungi Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di Diskominfo Bondowoso</title>
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed"
         href="https://kominfo.bondowosokab.go.id/feed" />
     <link rel="alternate" type="application/rss+xml" title=" &raquo; Umpan Komentar"
         href="https://kominfo.bondowosokab.go.id/comments/feed" />
+    <link rel="alternate" type="application/rss+xml"
+        title=" &raquo; Lindungi Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di Diskominfo Bondowoso Umpan Komentar"
+        href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html/feed" />
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/",
@@ -266,11 +269,21 @@
         src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/inc/megamenu/assets/js/megamenu.js?ver=5.5.3'
         id='stm_megamenu-js'></script>
     <link rel="https://api.w.org/" href="https://kominfo.bondowosokab.go.id/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://kominfo.bondowosokab.go.id/wp-json/wp/v2/posts/1853" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
         href="https://kominfo.bondowosokab.go.id/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://kominfo.bondowosokab.go.id/wp-includes/wlwmanifest.xml" />
+    <link rel='prev' title='Diskominfo Bondowoso Kembangkan Jaringan E-Gov Di 23 Kecamatan Pada PAK APBD 2019'
+        href='https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html' />
     <meta name="generator" content="WordPress 5.5.3" />
+    <link rel="canonical"
+        href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html" />
+    <link rel='shortlink' href='https://kominfo.bondowosokab.go.id/?p=1853' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://kominfo.bondowosokab.go.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkominfo.bondowosokab.go.id%2Flindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://kominfo.bondowosokab.go.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkominfo.bondowosokab.go.id%2Flindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html&#038;format=xml" />
     <style type='text/css'>
         iframe {
             max-width: 100%;
@@ -483,7 +496,9 @@
         </style>
     </noscript>
 </head>
-<body data-rsssl=1 class="blog site_layout_2  header_style_4 wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
+
+<body data-rsssl=1
+    class="post-template-default single single-post postid-1853 single-format-standard site_layout_2  header_style_4 wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
     <div id="wrapper">
         <div id="fullpage" class="content_wrapper">
             <header id="header">
@@ -562,9 +577,8 @@
                                     </ul>
                                 </li>
                                 <li id="menu-item-1726"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1463 current_page_item current_page_parent menu-item-1726">
-                                    <a href="https://kominfo.bondowosokab.go.id/berita" aria-current="page">Berita</a>
-                                </li>
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1726">
+                                    <a href="https://kominfo.bondowosokab.go.id/berita">Berita</a></li>
                                 <li id="menu-item-1727"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a
                                         href="https://kominfo.bondowosokab.go.id/bondowoso-melesat">Bondowoso
@@ -672,9 +686,8 @@
                                     </ul>
                                 </li>
                                 <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1463 current_page_item current_page_parent menu-item-1726">
-                                    <a href="https://kominfo.bondowosokab.go.id/berita" aria-current="page">Berita</a>
-                                </li>
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1726">
+                                    <a href="https://kominfo.bondowosokab.go.id/berita">Berita</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"><a
                                         href="https://kominfo.bondowosokab.go.id/bondowoso-melesat">Bondowoso
                                         Melesat</a></li>
@@ -721,122 +734,392 @@
                     </div>
                 </div>
             </header>
+            <div id="main">
+                <!-- <div class="page_title">
+                    <div class="container">
+                        <h1 class="h2">Lindungi Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di Diskominfo
+                            Bondowoso</h1>
+                    </div> -->
+            </div>
+            <div class="container">
 
-<!--
-//----------------------------------------------------------------------------------------------------------
-//-------------------------------------BODY-----------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-  -->
-@yield('hoax')
-@yield('detil_hoax')
+                <div class="content-area">
 
+                    <article id="post-1853"
+                        class="post-1853 post type-post status-publish format-standard has-post-thumbnail hentry category-berita-terbaru">
+                        <div class="entry-content consulting_elementor_wrapper">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                    <div class="col_in __padd-right">
+                                        <div class="without_vc">
+                                            <div class="post_details_wr">
 
+                                                <div class="stm_post_info">
 
-    <!--
-//----------------------------------------------------------------------------------------------------------
-//-------------------------------------BODY-----------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------------------------------
-  -->
-  <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-                            <div class="sidebar-area default_widgets">
-                                <aside id="search-2" class="widget widget_search">
-                                    <form method="get" class="search-form" action="https://kominfo.bondowosokab.go.id/">
-                                        <input type="search" class="form-control" placeholder="Search..." value=""
-                                            name="s" />
-                                        <button type="submit"><i class="fa fa-search"></i></button>
-                                    </form>
-                                </aside>
-                                <aside id="recent-posts-3" class="widget widget_recent_entries">
-                                    <h5 class="widget_title">Berita Hoax Lainnya</h5>
-                                    <ul>
+                                                    <div class="stm_post_details clearfix">
+                                                        <div class="">
+
+                                                            <h1 class="h2">Lindungi Pegawai Non-ASN, BPJS
+                                                                Ketenagakerjaan Gelar Sosialisasi di Diskominfo
+                                                                Bondowoso</h1>
+                                                        </div>
+                                                        <ul class="clearfix">
+                                                            <li class="post_date">
+                                                                <i class="fa fa fa-clock-o"></i>
+                                                                April 10, 2019 </li>
+                                                            <li class="post_by">Posted by: <span>admin
+                                                                    kominfo</span>
+                                                            </li>
+                                                            <li class="post_cat">Category: <span>Berita
+                                                                    Terbaru</span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- <div class="comments_num">
+                                                                <a
+                                                                    href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html#respond"><i
+                                                                        class="fa fa-comment-o"></i>Tidak ada Komentar
+                                                                </a>
+                                                            </div> -->
+                                                    </div>
+                                                    <div class="post_thumbnail">
+                                                        <img width="800" height="458"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg"
+                                                            class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
+                                                            alt="" loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg 800w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-300x172.jpg 300w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-768x440.jpg 768w"
+                                                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                </div>
+                                            </div>
+                                            <div class="wpb_text_column">
+                                                <p style="text-align: justify;">Pegawai non-Aparatur Sipil Negara
+                                                    (ASN) di Dinas Komunikasi dan Informatika (Diskominfo) Kabupaten
+                                                    Bondowoso mengikuti sosialisasi program Badan Penyelenggaran
+                                                    Jaminan Sosial (BPJS) Ketenagakerjaan di aula Diskominfo
+                                                    setempat, Rabu (20/3/2019).<br />
+                                                    Kepala Diskominfo Kabupaten Bondowoso, Haeriyah Yuliati
+                                                    menyampaikan bahwa, keikutsertaan BPJS Ketenagakerjaan menjadi
+                                                    sangat penting demi perlindungan keselamatan para pegawai
+                                                    non-ASN di dinas yang dipimpinnya itu.<br />
+                                                    &#8220;Kami sebagai pengguna jasa BPJS sangat mendukung atas
+                                                    kegiatan seperti ini. Tentu, manfaatnya untuk mereka
+                                                    masing-masing,&#8221; tuturnya usai acara sosialisasi BPJS
+                                                    Ketenagakerjaan, saat dikonfirmasi di ruangannya.<br />
+                                                    Menurutnya, di Diskominfo Kabupaten Bondowoso ada sekitar 38
+                                                    pegawai non-ASN yang mengikuti kegiatan sosialisasi BPJS
+                                                    Ketenegakerjaan.<br />
+                                                    &#8220;Terdiri dari tenaga outsourching, pegawai non-ASN TVRI
+                                                    dan Radio Mahardika serta di Diskominfo sendiri,&#8221; ungkap
+                                                    Haeriyah.<br />
+                                                    Sementara, bagian pemasaran BPJS Ketenagakerjaan, Landy Agung
+                                                    Palita menjelaskan, dalam sosialisasi tersebut pegawai non-ASN
+                                                    di Diskominfo Kabupaten Bondowoso ini, pihaknya hanya menawarkan
+                                                    dua program saja, yakni, Jaminan Kecelakaan Kerja dan Jaminan
+                                                    Kematian.<br />
+                                                    &#8220;Supaya tidak memberatkan teman-teman non-ASN, kami hanya
+                                                    tawarkan dua program itu saja. Kalau iurannya, hanya Rp 9.720
+                                                    per bulan,&#8221; jelasnya.<br />
+                                                    Sosialisasi BPJS Ketenagakerjaan di Diskominfo Kabupaten
+                                                    Bondowoso, dikatakan Landy, merupakan Organisasi Perangkat
+                                                    Daerah (OPD) yang kesekian kalinya dilakukan sosialisasi Jaminan
+                                                    Sosial ini.<br />
+                                                    &#8220;Diskominfo dilakukan sosialisasi setelah Dinas PMPTSP dan
+                                                    Naker serta DLHP. Beberapa Kelurahan juga sudah mulai
+                                                    pemberkasan untuk keikutsertaan BPJS Ketenagakerjaan,&#8221;
+                                                    jelasnya.<br />
+                                                    Diharapkan Landy, semua OPD di lingkup Pemerintah Kabupaten
+                                                    (Pemkab) Bondowoso segera mengikutsertakan pegawai non-ASN dalam
+                                                    BPJS Ketenagakerjaan.<br />
+                                                    &#8220;Kami harapkan OPD atau Dinas-dinas di Kabupaten Bondowoso
+                                                    untuk mengikutsertakan pegawai non-ASN sebagai peserta BPJS
+                                                    Ketenagakerjaan,&#8221;
+                                                    pungkasnya.<strong><em>(kominfo)</em></strong></p>
+                                            </div>
+                                            <br />
+                                            <br />
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                                    <div class="sidebar-area default_widgets">
+                                        <aside id="search-2" class="widget widget_search">
+                                            <form method="get" class="search-form"
+                                                action="https://kominfo.bondowosokab.go.id/">
+                                                <input type="search" class="form-control" placeholder="Search..."
+                                                    value="" name="s" />
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </aside>
+                                        <aside id="recent-posts-3" class="widget widget_recent_entries">
+                                            <h5 class="widget_title">Berita Terbaru</h5>
+                                            <ul>
+                                                <li>
+                                                    <a href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html"
+                                                        aria-current="page">Lindungi Pegawai Non-ASN, BPJS
+                                                        Ketenagakerjaan Gelar Sosialisasi di Diskominfo
+                                                        Bondowoso</a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html">Diskominfo
+                                                        Bondowoso Kembangkan Jaringan E-Gov Di 23 Kecamatan Pada PAK
+                                                        APBD 2019</a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-ajak-generasi-millenial-tolak-berita-hoax.html">Finalisasi
+                                                        Data Kepegawaian dan Kelas Jabatan, Plt Sekdin Kominfo :
+                                                        Harus Selesai Hari Ini</a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">Diskominfo
+                                                        Bondowoso Kenalkan Aplikasi SINKA</a>
+                                                </li>
+                                            </ul>
+
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article> <!-- #post-## -->
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1556364350879">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_custom_heading vc_custom_1556428511096 text_align_center">
+                                    <h2 style="text-align: center" class="consulting-custom-title">Berita Terbaru</h2>
+                                </div>
+
+                                <div class="stm_news ">
+                                    <ul class="news_list posts_per_row_4">
+
                                         <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html">Lindungi
-                                                Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di Diskominfo
-                                                Bondowoso</a>
+                                            <div class="post_inner">
+                                                <div class="image">
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html">
+                                                        <img width="350" height="250"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-350x250.jpg"
+                                                            class="attachment-consulting-image-350x250-croped" alt=""
+                                                            loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-350x250.jpg 350w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-255x182.jpg 255w"
+                                                            sizes="(max-width: 350px) 100vw, 350px"> </a>
+                                                </div>
+                                                <div class="category"><h5 class="no_stripe"><a
+                                                    href="https://kominfo.bondowosokab.go.id/category/berita-terbaru"
+                                                    rel="category tag">Berita Terbaru</a></h5>
+                                                </div>    
+                                                <div class="stm_news_unit-block">
+                                                    <h5 class="no_stripe"><a
+                                                            href="https://kominfo.bondowosokab.go.id/lindungi-pegawai-non-asn-bpjs-ketenagakerjaan-gelar-sosialisasi-di-diskominfo-bondowoso.html">Lindungi
+                                                            Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di
+                                                            Diskominfo BondowosoLindungi
+                                                            Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di
+                                                            Diskominfo Bondowoso Lindungi
+                                                            Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di
+                                                            Diskominfo Bondowoso  </a>
+                                                    </h5>
+                                                    
+
+                                                    <div class="stm_the_excerpt">
+                                                        <p>Pegawai non-Aparatur Sipil Negara (ASN) di Dinas Komunikasi
+                                                            dan Informatika (Diskominfo) Kabupaten Bondowoso mengikuti
+                                                            sosialisasi program Badan Penyelenggaran Jaminan Sosial
+                                                            (BPJS) Ketenagakerjaan di aula Diskominfo setempat, Rabu
+                                                            (20/3/2019). Kepala Diskominfo Kabupaten Bondowoso, Haeriyah
+                                                            Yuliati menyampaikan bahwa, keikutsertaan BPJS
+                                                            Ketenagakerjaan menjadi sangat penting demi perlindungan
+                                                            keselamatan para pegawai non-ASN di dinas yang dipimpinnya
+                                                            itu. “Kami sebagai</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
                                         </li>
                                         <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html">Diskominfo
-                                                Bondowoso Kembangkan Jaringan E-Gov Di 23 Kecamatan Pada PAK APBD
-                                                2019</a>
+                                            <div class="post_inner">
+                                                <div class="image">
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html">
+                                                        <img width="350" height="250"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Komisi-3-Egov-Kominfo-350x250.jpg"
+                                                            class="attachment-consulting-image-350x250-croped" alt=""
+                                                            loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Komisi-3-Egov-Kominfo-350x250.jpg 350w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Komisi-3-Egov-Kominfo-255x182.jpg 255w"
+                                                            sizes="(max-width: 350px) 100vw, 350px"> </a>
+                                                </div>
+                                                <div class="stm_news_unit-block">
+                                                    <h5 class="no_stripe"><a
+                                                            href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html">Diskominfo
+                                                            Bondowoso Kembangkan Jaringan E-Gov Di 23 Kecamatan Pada PAK
+                                                            APBD 2019</a>
+                                                    </h5>
+
+                                                    <div class="stm_the_excerpt">
+                                                        <p>Pemerintah Kabupaten (Pemkab) Bondowoso melalui Dinas
+                                                            Komunikasi dan Informatika (Diskominfo) terus melakukan
+                                                            pengembangan jaringan e-government (e-Gov) di seluruh
+                                                            jajaran Pemerintah daerah di 23 Kecamatan. Kepala
+                                                            Diskominfo, Haeriyah Yuliati menuturkan bahwa, saat ini
+                                                            telah diterapkan ke 34 Organisasi Perangkat Daerah (OPD) dan
+                                                            1 jaringan di Pendopo. Meskipun, dilakukan dalam bentuk sewa
+                                                            pihak ketiga. Menurutnya, jaringan tersebut</p>
+                                                    </div>
+                                                    <div class="category"><a
+                                                            href="https://kominfo.bondowosokab.go.id/category/berita-terbaru"
+                                                            rel="category tag">Berita Terbaru</a></div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-ajak-generasi-millenial-tolak-berita-hoax.html">Finalisasi
-                                                Data Kepegawaian dan Kelas Jabatan, Plt Sekdin Kominfo : Harus Selesai
-                                                Hari Ini</a>
+                                            <div class="post_inner">
+                                                <div class="image">
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-ajak-generasi-millenial-tolak-berita-hoax.html">
+                                                        <img width="350" height="250"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Finalisasi-Data-Kepegawaian-dan-Kelas-Jabatan-Plt-Sekdin-Kominfo-Harus-Selesai-Hari-Ini-350x250.jpg"
+                                                            class="attachment-consulting-image-350x250-croped" alt=""
+                                                            loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Finalisasi-Data-Kepegawaian-dan-Kelas-Jabatan-Plt-Sekdin-Kominfo-Harus-Selesai-Hari-Ini-350x250.jpg 350w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Finalisasi-Data-Kepegawaian-dan-Kelas-Jabatan-Plt-Sekdin-Kominfo-Harus-Selesai-Hari-Ini-255x182.jpg 255w"
+                                                            sizes="(max-width: 350px) 100vw, 350px"> </a>
+                                                </div>
+                                                <div class="stm_news_unit-block">
+                                                    <h5 class="no_stripe"><a
+                                                            href="https://kominfo.bondowosokab.go.id/diskominfo-ajak-generasi-millenial-tolak-berita-hoax.html">Finalisasi
+                                                            Data Kepegawaian dan Kelas Jabatan, Plt Sekdin Kominfo :
+                                                            Harus Selesai Hari Ini</a>
+                                                    </h5>
+
+                                                    <div class="stm_the_excerpt">
+                                                        <p>Tambahan Penghasilan bagi Pegawai Negeri Sipil (PNS) di
+                                                            lingkungan Pemerintah Kabupaten (Pemkab) Bondowoso atau
+                                                            biasa disebut Tunjangan Penghasilan Pegawai (TPP) akan
+                                                            dibayarkan pada bulan April 2019 mendatang. Untuk itu, Dinas
+                                                            Komunikasi dan Informatika (Kominfo) Kabupaten Bondowoso
+                                                            mengundang seluruh Organisasi Perangkat Daerah (OPD) dan
+                                                            seluruh Kecamatan untuk melakukan Finalisasi Data
+                                                            Kepegawaian dan Kelas Jabatan di aula</p>
+                                                    </div>
+                                                    <div class="category"><a
+                                                            href="https://kominfo.bondowosokab.go.id/category/berita-terbaru"
+                                                            rel="category tag">Berita Terbaru</a></div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">Diskominfo
-                                                Bondowoso Kenalkan Aplikasi SINKA</a>
+                                            <div class="post_inner">
+                                                <div class="image">
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">
+                                                        <img width="350" height="250"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-350x250.jpg"
+                                                            class="attachment-consulting-image-350x250-croped" alt=""
+                                                            loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-350x250.jpg 350w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-255x182.jpg 255w"
+                                                            sizes="(max-width: 350px) 100vw, 350px"> </a>
+                                                </div>
+                                                <div class="stm_news_unit-block">
+                                                    <h5 class="no_stripe"><a
+                                                            href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">Diskominfo
+                                                            Bondowoso Kenalkan Aplikasi SINKA</a>
+                                                    </h5>
+
+                                                    <div class="stm_the_excerpt">
+                                                        <p>Dinas Komunikasi dan Informatika (Diskominfo) Kabupaten
+                                                            Bondowoso memperkenalkan serta memberikan bimbingan teknis
+                                                            (Bimtek) tentang aplikasi Sistem Integrasi Kinerja ASN
+                                                            (SINKA) kepada seluruh operator Organisasi Perangkat Daerah
+                                                            (OPD) di lingkungan Pemerintah daerah. Aplikasi SINKA
+                                                            sendiri, telah terintegrasi dengan absensi elektronik atau
+                                                            fingerprint yang ada di masing-masing OPD. Sehingga, besaran
+                                                            TPP yang didapat ASN akan dihitung berdasarkan</p>
+                                                    </div>
+                                                    <div class="category"><a
+                                                            href="https://kominfo.bondowosokab.go.id/category/berita-terbaru"
+                                                            rel="category tag">Berita Terbaru</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post_inner">
+                                                <div class="image">
+                                                    <a
+                                                        href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">
+                                                        <img width="350" height="250"
+                                                            src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-350x250.jpg"
+                                                            class="attachment-consulting-image-350x250-croped" alt=""
+                                                            loading="lazy"
+                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-350x250.jpg 350w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Diskominfo-Bondowoso-Kenalkan-Aplikasi-SINKA-255x182.jpg 255w"
+                                                            sizes="(max-width: 350px) 100vw, 350px"> </a>
+                                                </div>
+                                                <div class="stm_news_unit-block">
+                                                    <h5 class="no_stripe"><a
+                                                            href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">Diskominfo
+                                                            Bondowoso Kenalkan Aplikasi SINKA</a>
+                                                    </h5>
+
+                                                    <div class="stm_the_excerpt">
+                                                        <p>Dinas Komunikasi dan Informatika (Diskominfo) Kabupaten
+                                                            Bondowoso memperkenalkan serta memberikan bimbingan teknis
+                                                            (Bimtek) tentang aplikasi Sistem Integrasi Kinerja ASN
+                                                            (SINKA) kepada seluruh operator Organisasi Perangkat Daerah
+                                                            (OPD) di lingkungan Pemerintah daerah. Aplikasi SINKA
+                                                            sendiri, telah terintegrasi dengan absensi elektronik atau
+                                                            fingerprint yang ada di masing-masing OPD. Sehingga, besaran
+                                                            TPP yang didapat ASN akan dihitung berdasarkan</p>
+                                                    </div>
+                                                    <div class="category"><a
+                                                            href="https://kominfo.bondowosokab.go.id/category/berita-terbaru"
+                                                            rel="category tag">Berita Terbaru</a></div>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
+                                </div>
 
-                                </aside>
-                                
                             </div>
-                            
                         </div>
-                        
                     </div>
-                    @yield('berita_lainnya')
                 </div>
-                <!--.container-->
-                
             </div>
-            <!--#main-->
-            
+            <!--.container-->
+
         </div>
-        <!--.content_wrapper-->
-                                        
-        <footer id="footer" class="footer style_1">
+        <!--#main-->
+    </div>
+    <!--.content_wrapper-->
+
+    <footer id="footer" class="footer style_1">
 
 
-            <div class="copyright_row widgets_disabled">
-                <div class="container">
-                    <div class="copyright_row_wr">
-                        <div class="socials">
-                            <ul>
-                                <li>
-                                    <a href="https://www.instagram.com/kominfobondowoso/" target="_blank"
-                                        class="social-instagram">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/channel/UCRsRQD_q_EhWraUCdd2QvMw" target="_blank"
-                                        class="social-youtube">
-                                        <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="copyright">
-                            © 2020 <strong>Dinas Komunikasi Dan Informasi Kabupaten Bondowoso</strong> </div>
+        <div class="copyright_row widgets_disabled">
+            <div class="container">
+                <div class="copyright_row_wr">
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/kominfobondowoso/" target="_blank"
+                                    class="social-instagram">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCRsRQD_q_EhWraUCdd2QvMw" target="_blank"
+                                    class="social-youtube">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="copyright">
+                        © 2020 <strong>Dinas Komunikasi Dan Informasi Kabupaten Bondowoso</strong> </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
     <!--#wrapper-->
     <script type='text/javascript' id='contact-form-7-js-extra'>
@@ -853,6 +1136,9 @@
         src='https://kominfo.bondowosokab.go.id/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2'
         id='contact-form-7-js'></script>
     <script type='text/javascript'
+        src='https://kominfo.bondowosokab.go.id/wp-includes/js/comment-reply.min.js?ver=5.5.3' id='comment-reply-js'>
+    </script>
+    <script type='text/javascript'
         src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/bootstrap.min.js?ver=5.1.5'
         id='bootstrap-js'></script>
     <script type='text/javascript'
@@ -863,6 +1149,9 @@
         id='consulting-custom-js'></script>
     <script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-includes/js/wp-embed.min.js?ver=5.5.3'
         id='wp-embed-js'></script>
+    <script async="async" type='text/javascript'
+        src='https://kominfo.bondowosokab.go.id/wp-content/plugins/akismet/_inc/form.js?ver=4.1.6' id='akismet-form-js'>
+    </script>
 </body>
 
 </html>
