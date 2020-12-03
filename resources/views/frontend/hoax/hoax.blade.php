@@ -50,31 +50,31 @@
                                             </div>
                                         </li>
                                         @endforeach
-
+                                        <br/>
+                                        Halaman : {{ $beritahoax->currentPage() }} <br/>
+                                        Jumlah Data : {{ $beritahoax->total() }} <br/>
+                                        Data Per Halaman : {{ $beritahoax->perPage() }} <br/>
+                                                                            
                                         
-                                      
+                                        {{ $beritahoax->links() }}
+                                        
+                                            
                                         
                                         <div class="post_read_more">
                                             <a class="button bordered icon_center"
-                                                href="">
+                                                href="{{ $beritahoax->previousPageUrl() }}">
                                                   << 
                                             </a>
 
                                             <a class="button bordered icon_center"
                                                 href="">
-                                                  1 
-                                            </a>
+                                                 
+                                            </a>                                            
                                             <a class="button bordered icon_center"
-                                                href="">
-                                                  10
-                                            </a>
-                                            <a class="button bordered icon_center"
-                                                href="">
-                                                  100
-                                            </a>
-                                            <a class="button bordered icon_center"
-                                                href="">
-                                                  >> 
+                                                href="{{ $beritahoax->nextPageUrl() }} ">
+                                                >>
+                                        
+                                                
                                             </a>
                                             
                                             

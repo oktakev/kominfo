@@ -25,14 +25,12 @@
                                                         </div>
                                                         <ul class="clearfix">
                                                             <li class="post_date">
-                                                                <i class="fa fa fa-clock-o"></i>
-                                                                April 10, 2019 </li>
-                                                            <li class="post_by">Posted by: <span>admin
+                                                                <i class="fa fa fa-clock-o"></i>{{ $h->tanggal_upload }}</li>
+                                                            <!-- <li class="post_by">Posted by: <span>admin
                                                                     kominfo</span>
-                                                            </li>
-                                                            <li class="post_cat">Category: <span>Berita
-                                                                    Terbaru</span>
-                                                            </li>
+                                                            </li> -->
+                                                            <li class="post_cat">Category: <span>{{ $h->kategori }}</span>
+                                                    </li>
                                                         </ul>
                                                         <!-- <div class="comments_num">
                                                                 <a
@@ -51,48 +49,7 @@
                                                 </div>
                                             </div>
                                             <div class="wpb_text_column">
-                                                <p style="text-align: justify;">Pegawai non-Aparatur Sipil Negara
-                                                    (ASN) di Dinas Komunikasi dan Informatika (Diskominfo) Kabupaten
-                                                    Bondowoso mengikuti sosialisasi program Badan Penyelenggaran
-                                                    Jaminan Sosial (BPJS) Ketenagakerjaan di aula Diskominfo
-                                                    setempat, Rabu (20/3/2019).<br />
-                                                    Kepala Diskominfo Kabupaten Bondowoso, Haeriyah Yuliati
-                                                    menyampaikan bahwa, keikutsertaan BPJS Ketenagakerjaan menjadi
-                                                    sangat penting demi perlindungan keselamatan para pegawai
-                                                    non-ASN di dinas yang dipimpinnya itu.<br />
-                                                    &#8220;Kami sebagai pengguna jasa BPJS sangat mendukung atas
-                                                    kegiatan seperti ini. Tentu, manfaatnya untuk mereka
-                                                    masing-masing,&#8221; tuturnya usai acara sosialisasi BPJS
-                                                    Ketenagakerjaan, saat dikonfirmasi di ruangannya.<br />
-                                                    Menurutnya, di Diskominfo Kabupaten Bondowoso ada sekitar 38
-                                                    pegawai non-ASN yang mengikuti kegiatan sosialisasi BPJS
-                                                    Ketenegakerjaan.<br />
-                                                    &#8220;Terdiri dari tenaga outsourching, pegawai non-ASN TVRI
-                                                    dan Radio Mahardika serta di Diskominfo sendiri,&#8221; ungkap
-                                                    Haeriyah.<br />
-                                                    Sementara, bagian pemasaran BPJS Ketenagakerjaan, Landy Agung
-                                                    Palita menjelaskan, dalam sosialisasi tersebut pegawai non-ASN
-                                                    di Diskominfo Kabupaten Bondowoso ini, pihaknya hanya menawarkan
-                                                    dua program saja, yakni, Jaminan Kecelakaan Kerja dan Jaminan
-                                                    Kematian.<br />
-                                                    &#8220;Supaya tidak memberatkan teman-teman non-ASN, kami hanya
-                                                    tawarkan dua program itu saja. Kalau iurannya, hanya Rp 9.720
-                                                    per bulan,&#8221; jelasnya.<br />
-                                                    Sosialisasi BPJS Ketenagakerjaan di Diskominfo Kabupaten
-                                                    Bondowoso, dikatakan Landy, merupakan Organisasi Perangkat
-                                                    Daerah (OPD) yang kesekian kalinya dilakukan sosialisasi Jaminan
-                                                    Sosial ini.<br />
-                                                    &#8220;Diskominfo dilakukan sosialisasi setelah Dinas PMPTSP dan
-                                                    Naker serta DLHP. Beberapa Kelurahan juga sudah mulai
-                                                    pemberkasan untuk keikutsertaan BPJS Ketenagakerjaan,&#8221;
-                                                    jelasnya.<br />
-                                                    Diharapkan Landy, semua OPD di lingkup Pemerintah Kabupaten
-                                                    (Pemkab) Bondowoso segera mengikutsertakan pegawai non-ASN dalam
-                                                    BPJS Ketenagakerjaan.<br />
-                                                    &#8220;Kami harapkan OPD atau Dinas-dinas di Kabupaten Bondowoso
-                                                    untuk mengikutsertakan pegawai non-ASN sebagai peserta BPJS
-                                                    Ketenagakerjaan,&#8221;
-                                                    pungkasnya.<strong><em>(kominfo)</em></strong></p>
+                                                <p style="text-align: justify;">{{ $h->content }}</p>
                                             </div>
                                             <br />
                                             <br />
