@@ -51,14 +51,14 @@
         <div class="navbar-area">
             <div class="sinmun-mobile-nav">
                 <div class="logo">
-                    <a href="index-7.html"><img src="resources/sinmun/assets/img/logo1.png" alt="logo"></a>
+                    <a href="HomeBeritaHoax"><img src="resources/sinmun/assets/img/logo1.png" alt="logo"></a>
                 </div>
             </div>
 
             <div class="sinmun-nav pt-0">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-dark">
-                        <a class="navbar-brand" href="index-7.html"><img src="resources/sinmun/assets/img/logo1.png"
+                        <a class="navbar-brand" href="HomeBeritaHoax"><img src="resources/sinmun/assets/img/logo1.png"
                                 alt="logo"></a>
                     </nav>
                 </div>
@@ -198,9 +198,9 @@
     <footer class="footer-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="single-footer-widget">
-                        <h3>About The Magazine</h3>
+                        
 
                         <div class="contact-info">
                             <p>You can reach us via phone, email and website. Or send us some message through our
@@ -214,8 +214,7 @@
                         </div>
 
                         <div class="connect-social">
-                            <p>We're social, connect with us:</p>
-
+                                
                             <ul>
                                 <li><a href="#" target="_blank"><i class="icofont-facebook"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="icofont-twitter"></i></a></li>
@@ -227,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="single-footer-widget">
                         <h3>Latest News</h3>
 
@@ -243,7 +242,7 @@
                                         <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
                                     </ul>
 
-                                    <h3><a href="#">Gloost Better They Are With A Featured</a></h3>
+                                    <h3><a href="#">Judul berita terakhir</a></h3>
                                 </div>
                             </div>
 
@@ -258,7 +257,7 @@
                                         <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
                                     </ul>
 
-                                    <h3><a href="#">Gloost Better They Are With A Featured</a></h3>
+                                    <h3><a href="#">Judul berita terakhir</a></h3>
                                 </div>
                             </div>
 
@@ -273,37 +272,8 @@
                                         <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
                                     </ul>
 
-                                    <h3><a href="#">Gloost Better They Are With A Featured</a></h3>
+                                    <h3><a href="#">Judul berita terakhir</a></h3>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                    <div class="single-footer-widget">
-                        <h3>Twitter Feed</h3>
-
-                        <div class="twitter-tweet-list">
-                            <div class="single-tweet">
-                                <i class="icofont-twitter"></i>
-                                <span>About 2 days ago</span>
-                                <p>Conference Event WordPress Theme -> 2 New Home Added <a
-                                        href="#">https://tt.co/Rn00zM5q7gY70</a></p>
-                            </div>
-
-                            <div class="single-tweet">
-                                <i class="icofont-twitter"></i>
-                                <span>About 2 days ago</span>
-                                <p>Conference Event WordPress Theme -> 2 New Home Added <a
-                                        href="#">https://tt.co/Rn00zM5q7gY70</a></p>
-                            </div>
-
-                            <div class="single-tweet">
-                                <i class="icofont-twitter"></i>
-                                <span>About 2 days ago</span>
-                                <p>Conference Event WordPress Theme -> 2 New Home Added #wordpress #event #conference
-                                    #wordpresstheme <a href="#">https://tt.co/Rn00zM5q7gY70</a></p>
                             </div>
                         </div>
                     </div>
@@ -328,7 +298,7 @@
     <div class="go-top"><i class="icofont-swoosh-up"></i></div>
 
     <!-- Jquery Min JS -->
-    <script src="{{}}resources/sinmun/assets/js/jquery.min.js"></script>
+    <script src="resources/sinmun/assets/js/jquery.min.js"></script>
     <!-- Popper Min JS -->
     <script src="resources/sinmun/assets/js/popper.min.js"></script>
     <!-- Bootstrap Min JS -->

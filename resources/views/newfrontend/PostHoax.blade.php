@@ -27,12 +27,12 @@
                         <div class="news-details">
                             <div class="article-content">
                                 <ul class="entry-meta">
-                                    <li><i class="icofont-user"></i> <a href="#">Sinmun</a></li>
+                            
                                     <li><i class="icofont-eye-alt"></i> 1040</li>
                                     <li><i class="icofont-calendar"></i> April 08, 2019</li>
                                 </ul>
 
-                                <h3 class="mb-0">As well as stopping goals, Cristiane Endler is opening doors for other women</h3>
+                                <h3 class="mb-0">Ini Judul Berita</h3>
                             </div>
 
                             <div class="article-img">
@@ -66,13 +66,7 @@
 
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                                <ul class="category">
-                                    <li><span>Tags:</span></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">IT</a></li>
-                                    <li><a href="#">Tips</a></li>
-                                    <li><a href="#">Design</a></li>
-                                </ul>
+                                
                             </div>
                         </div>
                     </div>

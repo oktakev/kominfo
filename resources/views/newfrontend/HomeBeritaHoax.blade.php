@@ -25,31 +25,30 @@
                             </div>
                             <div class="posts-content">
                                 <div class="cat">
-                                    <a href="#">Fashion</a>
+                                    <a href="KategoriHoax">Kategori - Disinformasi</a>
                                 </div>
-                                <h3 class="title"><a href="#">26 Fashion Blogs You Need to Follow in 2019</a></h3>
+                                <h3 class="title"><a href="#">Ini Judul Berita</a></h3>
 
                                 <div class="posts-meta">
-                                    <span class="posts-author">
-                                        <a href="#">Sarah Taylor</a>
-                                    </span>
+                                    <!-- <span class="posts-author"> -->
+                                        <!-- <a href="KategoriHoax">Kategori - Disinformasi</a> -->
+                                    <!-- </span> -->
 
-                                    <span class="posts-date">
+                                    <!-- <span class="posts-date"> -->
                                         February 25, 2019
-                                    </span>
+                                    <!-- </span> -->
                                 </div>
 
                                 <p>Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur
                                     elementum nunc.</p>
 
-                                <a href="PostHoax" class="read-more-btn"><span>Read More</span> <i
+                                <a href="PostHoax" class="read-more-btn"><span>Baca Lanjutan</span> <i
                                         class="icofont-arrow-right"></i></a>
                             </div>
                         </div>
-
                     </div>
 
-
+                    <!-- Pagination -->
                     <div class="pagination-area">
                         <a href="#" class="prev page-numbers"><i class="icofont-double-left"></i></a>
                         <a href="#" class="page-numbers">1</a>
@@ -75,7 +74,7 @@
                                 <div class="info">
                                     <time datetime="2019-05-11">May 11, 2019</time>
                                     <h4 class="title">
-                                        <a href="#">The 5 most iconic songs of all time have been revealed.</a>
+                                        <a href="#">Ini judul top topics</a>
                                     </h4>
                                 </div>
                             </article>
@@ -88,7 +87,7 @@
                                 <div class="info">
                                     <time datetime="2019-05-11">May 11, 2019</time>
                                     <h4 class="title">
-                                        <a href="#">Google web ranking changing much company</a>
+                                        <a href="#">Ini judul top topics</a>
                                     </h4>
                                 </div>
                             </article>
@@ -101,7 +100,7 @@
                                 <div class="info">
                                     <time datetime="2019-05-11">May 11, 2019</time>
                                     <h4 class="title">
-                                        <a href="#">10 Tactics for marketing your company</a>
+                                        <a href="#">Ini judul top topics</a>
                                     </h4>
                                 </div>
                             </article>
@@ -114,21 +113,18 @@
                                 <div class="info">
                                     <time datetime="2019-05-11">May 11, 2019</time>
                                     <h4 class="title">
-                                        <a href="#">The 5 most iconic songs of all time have been revealed.</a>
+                                        <a href="#">Ini judul top topics</a>
                                     </h4>
                                 </div>
                             </article>
                         </section>
 
                         <section class="widget widget_categories">
-                            <h3 class="widget-title">Categories</h3>
+                            <h3 class="widget-title">Kategori</h3>
 
                             <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Tips</a></li>
-                                <li><a href="#">Uncategorized</a></li>
+                                <li><a href="#">Hoax</a></li>
+                                <li><a href="#">Disinformasi</a></li>
                             </ul>
                         </section>
                     </aside>
