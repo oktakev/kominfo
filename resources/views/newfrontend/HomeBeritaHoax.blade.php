@@ -30,13 +30,7 @@
                                 <h3 class="title"><a href="#">Ini Judul Berita</a></h3>
 
                                 <div class="posts-meta">
-                                    <!-- <span class="posts-author"> -->
-                                        <!-- <a href="KategoriHoax">Kategori - Disinformasi</a> -->
-                                    <!-- </span> -->
-
-                                    <!-- <span class="posts-date"> -->
                                         February 25, 2019
-                                    <!-- </span> -->
                                 </div>
 
                                 <p>Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur
@@ -51,8 +45,8 @@
                     <!-- Pagination -->
                     <div class="pagination-area">
                         <a href="#" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                        <a href="#" class="page-numbers">1</a>
-                        <span class="page-numbers current" aria-current="page">2</span>
+                        <a href="#" class="page-numbers current" aria-current="page">1</a>
+                        <span class="page-numbers">2</span>
                         <a href="#" class="page-numbers">3</a>
                         <a href="#" class="page-numbers">4</a>
                         <a href="#" class="next page-numbers"><i class="icofont-double-right"></i></a>
