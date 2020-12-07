@@ -11,7 +11,7 @@ use \App\Gallery_categories_model;
 
 
 
-class hoax extends Controller
+class hoax2 extends Controller
 {
     public function index2()
     {
