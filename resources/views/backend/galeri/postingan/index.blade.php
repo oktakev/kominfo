@@ -39,7 +39,7 @@
                                         </a>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item"  href="edit-postingan/{{$g->id_gallery}}">Edit</a>
+                                            <!-- <a class="dropdown-item"  href="edit-postingan/{{$g->id_gallery}}">Edit</a> -->
                                         <a class="dropdown-item"  href="delete/{{$g->id_gallery}}">Delete</a>
                                         </div>
                                     </div>
