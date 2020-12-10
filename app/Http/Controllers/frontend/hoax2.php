@@ -22,7 +22,7 @@ class hoax2 extends Controller
         ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','hoax.content')
         ->orderBy('id_hoax', 'desc')
         ->paginate(2);
-        return view('frontend.hoax.hoax', ['beritahoax' => $beritahoax]);
+        return view('newfrontend/KategoriHoax', ['beritahoax' => $beritahoax]);
     }
 
 
