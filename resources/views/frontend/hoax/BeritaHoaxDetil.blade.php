@@ -44,7 +44,7 @@
                                                             src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg"
                                                             class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
                                                             alt="" loading="lazy"
-                                                            srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg 800w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-300x172.jpg 300w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-768x440.jpg 768w"
+                                                            srcset="{{ url('/images/gallery/'.$h->img) }}"
                                                             sizes="(max-width: 800px) 100vw, 800px" /> </div>
                                                 </div>
                                             </div>
