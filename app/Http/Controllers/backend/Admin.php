@@ -68,8 +68,16 @@ class Admin extends Controller
             "galeri" => DB::table("gallery")
                     ->select(array(DB::raw('count(id_gallery) as ttl')))
                     ->get(),
+        
         );
-        return view('backend.index', $arr);
+        
+        $populer = DB::table('hoax')
+        ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
+        ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
+        ,'hoax.tanggal_upload')
+        ->get();
+
+        return view('backend.index', $arr, ['hoax' => $populer]);
     }
 
     function logout(){
