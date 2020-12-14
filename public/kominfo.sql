@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2020 at 03:49 AM
+-- Generation Time: Nov 30, 2020 at 07:22 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.3.23
 
@@ -15,7 +15,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `kominfo`
@@ -60,8 +60,8 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`id_gallery`, `img`, `id_category`) VALUES
-(1, 'a1.jpg', 1),
-(2, 'a2.jpg', 2);
+(18, '05903.jpg', 3),
+(21, '06864.png', 4);
 
 -- --------------------------------------------------------
 
@@ -79,8 +79,8 @@ CREATE TABLE `gallery_categories` (
 --
 
 INSERT INTO `gallery_categories` (`id_category`, `category_name`) VALUES
-(1, 'Fakta'),
-(2, 'Hoaks');
+(3, 'Gambar Fakta'),
+(4, 'Gambar Hoaks');
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,7 @@ CREATE TABLE `hoax` (
   `id_hoax` int(10) UNSIGNED NOT NULL,
   `judul` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `id_kategori` tinyint(4) NOT NULL,
-  `link_sumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `sumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `tanggal_upload` datetime NOT NULL,
   `gambar` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `content` text COLLATE utf8mb4_unicode_ci NOT NULL
@@ -102,8 +102,9 @@ CREATE TABLE `hoax` (
 -- Dumping data for table `hoax`
 --
 
-INSERT INTO `hoax` (`id_hoax`, `judul`, `id_kategori`, `link_sumber`, `tanggal_upload`, `gambar`, `content`) VALUES
-(1, 'Foto Helikopter Jatuh di Perkebunan Tomohon', 2, 'https://www.kominfo.go.id/content/detail/30901/disinformasi-foto-helikopter-jatuh-di-perkebunan-tomohon/0/laporan_isu_hoaks', '2020-11-19 09:47:19', 'a1.jpg', 'Penjelasan :\r\n\r\nBeredar di media sosial Facebook sejumlah foto memperlihatkan bangkai helikopter yang jatuh di sebuah perbukitan. Helikopter dalam foto tersebut diklaim mengalami kecelakaan di perkebunan sekitar Tomohon, Sulawesi Utara. ');
+INSERT INTO `hoax` (`id_hoax`, `judul`, `id_kategori`, `sumber`, `tanggal_upload`, `gambar`, `content`) VALUES
+(9, 'Gunung Ili Lewotolok di Lembata NTT Berstatus Siaga, Ini Rekomendasi PVMBG', 4, 'Liputan 6', '2020-11-30 03:14:17', '18', '<p>Dengan meningkatnya status&nbsp;<a href=\"https://www.liputan6.com/news/read/4420785/gunung-ili-lewotolok-lembata-ntt-kini-berstatus-siaga\" title=\"Gunung Ili Lewotolok\">Gunung Ili Lewotolok</a>, PVMBG mengeluarkan sejumlah rekomendasi. Pertama, masyarakat di sekitar gunung maupun pengunjung, pendaki atau wisatawan tidak melakukan aktivitas di dalam radius 4 km dari kawah puncak.</p>\r\n\r\n<p>Kedua, penggunaan masker maupun perlengkapan lain untuk melindungi mata dan kulit. &quot;Ini direkomendasikan untuk menghindari dampak abu vulkanik yang mengakibatkan gangguan pernapasan akut maupun gangguan kesehatan lain,&quot; jelas dia.</p>\r\n\r\n<p>Ketiga, PVMBG mengingatkan abu vulkanik saat ini jatuh di beberapa sektor di sekeliling Gunung Ili Lewotolok. Karenanya, masyarakat yang bermukim di sekitar aliran sungai-sungai yang berhulu di gunung diminta mewaspadai potensi ancaman lahar, terutama di musim hujan.</p>\r\n\r\n<p>&quot;Potensi bahaya&nbsp;<a href=\"https://www.liputan6.com/tag/gunung-ili-lewotolok\">Gunung Ili Lewotolok</a>&nbsp;berupa lontaran batu atau lava pijar ke segala arah, hujan abu lebat, penyebarannya dipengaruhi arah dan kecepatan angin, awan panas khususnya ke arah bukaan kawah di sisi tenggara,&quot; kata dia.</p>\r\n\r\n<p>Bahaya lain berupa longsoran material lapuk yang berada di kawah puncak ke arah tenggara maupun lahar di sungai-sungai yang berhulu dari puncak gunung.</p>'),
+(11, '[HOAKS] Akun Facebook Mengatasnamakan Wakil Bupati Probolinggo', 5, 'Kominfo bwz', '2020-11-30 03:28:31', '21', '<p>&lt;p&gt;Beredar akun Facebook mengatasnamakan Wakil Bupati Kabupaten Probolinggo Jawa Timur Timbul Prihanjoko.&amp;nbsp; Akun tersebut menggunakan foto Timbul Prihanjoko dan melakukan komunikasi kepada sejumlah orang dengan maksud meminta bantuan dana untuk penanganan Covid-19.&lt;/p&gt;</p>\r\n\r\n<p>&lt;p&gt;Faktanya, akun Facebook tersebut adalah akun palsu dan bukanlah milik Wakil Bupati Probolinggo Timbul Prihanjoko. Wakil Bupati Timbul dalam akun Facebook asli miliknya menjelaskan bahwa ada pihak yang tidak dikenal menggunakan foto dan profil dirinya. Ia pun memohon agar masyarakat tidak menanggapi akun palsu tersebut. Timbul memastikan akun palsu yang sengaja menduplikat akun Facebook miliknya itu ingin mencari keuntungan pribadi.&lt;/p&gt;</p>\r\n\r\n<p>&lt;p&gt;Link Counter:&lt;/p&gt;</p>\r\n\r\n<p>&lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://www.instagram.com/p/CIAcCcVBXB7/?igshid=qos14nxe0pf6&quot;&gt;https://www.instagram.com/p/CIAcCcVBXB7/?igshid=qos14nxe0pf6&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;</p>\r\n\r\n<p>&lt;p&gt;&lt;u&gt;&lt;a href=&quot;https://www.facebook.com/rsu.muliahati.7/posts/225519602329846&quot;&gt;https://www.facebook.com/rsu.muliahati.7/posts/225519602329846&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;</p>');
 
 -- --------------------------------------------------------
 
@@ -121,8 +122,8 @@ CREATE TABLE `laporan_kategori` (
 --
 
 INSERT INTO `laporan_kategori` (`id_kategori`, `kategori`) VALUES
-(1, 'Fakta'),
-(2, 'Hoaks');
+(4, 'Fakta'),
+(5, 'Hoaks');
 
 -- --------------------------------------------------------
 
@@ -201,25 +202,25 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id_gallery` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_gallery` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `gallery_categories`
 --
 ALTER TABLE `gallery_categories`
-  MODIFY `id_category` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_category` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `hoax`
 --
 ALTER TABLE `hoax`
-  MODIFY `id_hoax` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_hoax` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `laporan_kategori`
 --
 ALTER TABLE `laporan_kategori`
-  MODIFY `id_kategori` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_kategori` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `migrations`

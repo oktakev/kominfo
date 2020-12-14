@@ -22,7 +22,7 @@
                             <div class="row  m-0 align-items-center">
                                 <div class="col-lg-5 col-md-6 p-0">
                                     <div class="category-news-image">
-                                        <a href="PostHoax"><img src="resources/sinmun/assets/img/1.jpg" alt="image"></a>
+                                        <a href="PostHoax"><img style="height: 100px; width: 100px;"  src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
 
                                         <!-- <div class="tags bg-3">
                                             <a href="#">Hoax</a>
@@ -45,43 +45,6 @@
                                         Jumlah Data : {{ $beritahoax->total() }} <br/>
                                         Data Per Halaman : {{ $beritahoax->perPage() }} <br/>
                                                                             
-                                        
-                                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <!-- <div class="single-category-news">
-                            <div class="row m-0 align-items-center">
-                                <div class="col-lg-5 col-md-6 p-0">
-                                    <div class="category-news-image">
-                                        <a href="PostHoax"><img src="resources/sinmun/assets/img/3.jpg" alt="image"></a>
-
-                                        <div class="tags bg-5">
-                                            <a href="#">Disinformasi</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-7 col-md-6">
-                                    <div class="category-news-content">
-                                        <span><i class="icofont-clock-time"></i> 10 minutes ago</span>
-                                        <h3><a href="#">Ini juga Judul</a></h3>
-                                        <p>INI KONTEN GK BENER</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
 
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>

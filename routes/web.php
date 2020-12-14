@@ -52,9 +52,9 @@ Route::get('/welcome', function(){
 // Route::get('/berita_hoax', function(){
 //     return view('frontend/hoax/hoax');
 // });
-// Route::get('/BeritaHoaxDetil', function(){
-//     return view('frontend/hoax/BeritaHoaxDetil');
-// });
+Route::get('/BeritaHoaxDetil', function(){
+    return view('frontend/hoax/BeritaHoaxDetil');
+});
 //sinmun
 Route::get('/HomeBeritaHoax', function(){
     return view ('newfrontend/HomeBeritaHoax');
@@ -66,9 +66,11 @@ Route::get('/PostHoax', function()
 {
     return view ('newfrontend/PostHoax');
 });
+
 //BUKAN PUNYA YADRI
 Route::get('/berita_hoax', 'App\Http\Controllers\frontend\hoax@index2');
 Route::get('/detil_hoax/{id}', 'App\Http\Controllers\frontend\hoax@edit2');
 
 Route::get('/berita_hoax2', 'App\Http\Controllers\frontend\hoax2@index2');
 Route::get('/detil_hoax2/{id}', 'App\Http\Controllers\frontend\hoax2@edit2');
+
