@@ -5,7 +5,8 @@ namespace App\Http\Controllers\backend;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
-use \App\Gallery_categories_model;
+use Illuminate\Support\Facades\URL;
+use App\Gallery_categories_model;
 use App\Gallery_model;
 
 class Postingan extends Controller
@@ -24,8 +25,11 @@ class Postingan extends Controller
 
     public function add()
     {
-        $gallery_categories = Gallery_categories_model::all(['id_category','category_name']);
-        return view('backend.galeri.postingan.add-postingan',['gallery_categories' => $gallery_categories]);
+        // $gallery_categories = Gallery_categories_model::all(['id_category','category_name']);
+        // return view('backend.galeri.postingan.add-postingan',['gallery_categories' => $gallery_categories]);
+
+        $id_category = Gallery_categories_model::all();
+        return view('backend.galeri.postingan.add-postingan' , ['id_category' => $id_category]);
     }
 
     function proses(Request $request)
@@ -87,5 +91,12 @@ class Postingan extends Controller
         DB::table('gallery')->where('id_gallery', $id)->delete();
 
         return redirect('admin/galeri/postingan/list-postingan');
+    }
+
+    public function bycategory()
+    {
+        $data['gallery'] = DB::table('gallery')->where('id_category',$_GET['id_category'])->get();
+        $data['url'] = URL::to('/');
+        return response()->json($data);
     }
 }

@@ -72,7 +72,7 @@
                         <tbody>
                             @foreach($hoax as $h)
                             <tr>
-                                <td><span scope="row">{{ $loop->iteration }}</span></td>
+                            <td><?php echo $loop->iteration==1 ? "<span style='line-height:80%;font-size:30px' class='mdi mdi-crown color-orange'></span>" : $loop->iteration; ?></td>
                                 <td>{{ $h->judul}}</td>
                                 <td>{{ $h->kategori }}</td>
                                 <td>{{ $h->tanggal_upload }}</td>
