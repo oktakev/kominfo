@@ -35,11 +35,10 @@
                                             </div>
                                             <div class="post_thumbnail">
                                                 <img width="800" height="458"
-                                                    src="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg"
+                                                    src="{{ url('/images/gallery/'.$h->img) }}"
                                                     class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
                                                     alt="" loading="lazy"
-                                                    srcset="https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso.jpg 800w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-300x172.jpg 300w, https://kominfo.bondowosokab.go.id/wp-content/uploads/2019/04/Lindungi-Pegawai-Non-ASN-BPJS-Ketenagakerjaan-Gelar-Sosialisasi-di-Diskominfo-Bondowoso-768x440.jpg 768w"
-                                                    sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                                                    srcset="{{ url('/images/gallery/'.$h->img) }}" /> </div>
                                             <div class="post_excerpt">
                                             </div>
                                             <div class="post_read_more">
