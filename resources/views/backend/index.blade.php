@@ -70,28 +70,15 @@
                             </tr>
                         </thead>
                         <tbody>
-                            
+                            @foreach($hoax as $h)
                             <tr>
-                                <td><span style='line-height:80%;font-size:30px' class='mdi mdi-crown color-orange'></span></td>
-                                <td>Foto Helikopter Jatuh di Perkebunan Tomohon</td>
-                                <td>Hoax</td>
-                                <td>03 Januari 2020</td>
+                            <td><?php echo $loop->iteration==1 ? "<span style='line-height:80%;font-size:30px' class='mdi mdi-crown color-orange'></span>" : $loop->iteration; ?></td>
+                                <td>{{ $h->judul}}</td>
+                                <td>{{ $h->kategori }}</td>
+                                <td>{{ $h->tanggal_upload }}</td>
                             </tr>
 
-                            <tr>
-                                <td>2</span></td>
-                                <td>Link pulsa telkomsel gratis di telegram</td>
-                                <td>Fakta</td>
-                                <td>10 Januari 2020</td>
-                            </tr>
-
-                            <tr>
-                                <td>3</span></td>
-                                <td>Menho Lukut dirawat di belgia</td>
-                                <td>Fakta</td>
-                                <td>22 Januari 2020</td>
-                            </tr>
-                           
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
