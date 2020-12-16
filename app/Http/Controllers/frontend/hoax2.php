@@ -47,10 +47,10 @@ class hoax2 extends Controller
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
         ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
-        ->where('hoax.id_kategori','=',5)
+        ->where('hoax.id_kategori','=',4)
         ->orderBy('id_hoax', 'desc')
         ->paginate(4);
-        return view('newfrontend/KategoriHoax', ['beritahoax' => $beritahoax]);
+        return view('newfrontend/KategoriDisinformasi', ['beritahoax' => $beritahoax]);
 
     }
 
