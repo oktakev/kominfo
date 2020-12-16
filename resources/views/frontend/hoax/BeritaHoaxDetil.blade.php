@@ -127,3 +127,20 @@
                     </div>
                 </div>
                 @endsection
+
+                @section('berita_hoax_lainnya')
+
+<aside id="recent-posts-3" class="widget widget_recent_entries">
+                                <h5 class="widget_title">Berita Hoax Lainnya</h5>
+                                @foreach($hoax as $a)
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="detil_hoax/{{ $a->id_hoax }}">{{ $a->judul}}</a>
+                                    </li>
+                                    
+                                </ul>
+                                @endforeach
+                            </aside>
+
+@endsection

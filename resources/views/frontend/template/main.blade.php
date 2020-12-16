@@ -764,7 +764,9 @@
                                         <button type="submit"><i class="fa fa-search"></i></button>
                                     </form>
                                 </aside>
-                                <aside id="recent-posts-3" class="widget widget_recent_entries">
+@yield('berita_hoax_lainnya')
+@yield('berita_disinformasi_lainnya')
+                                <!-- <aside id="recent-posts-3" class="widget widget_recent_entries">
                                     <h5 class="widget_title">Berita Hoax Lainnya</h5>
                                     <ul>
                                         <li>
@@ -773,26 +775,11 @@
                                                 Pegawai Non-ASN, BPJS Ketenagakerjaan Gelar Sosialisasi di Diskominfo
                                                 Bondowoso</a>
                                         </li>
-                                        <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kembangkan-jaringan-e-gov-di-23-kecamatan-pada-pak-apbd-2019.html">Diskominfo
-                                                Bondowoso Kembangkan Jaringan E-Gov Di 23 Kecamatan Pada PAK APBD
-                                                2019</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-ajak-generasi-millenial-tolak-berita-hoax.html">Finalisasi
-                                                Data Kepegawaian dan Kelas Jabatan, Plt Sekdin Kominfo : Harus Selesai
-                                                Hari Ini</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://kominfo.bondowosokab.go.id/diskominfo-bondowoso-kenalkan-aplikasi-sinka.html">Diskominfo
-                                                Bondowoso Kenalkan Aplikasi SINKA</a>
-                                        </li>
+                                        
                                     </ul>
 
-                                </aside>
+                                </aside> -->
+
                                 
                             </div>
                             
