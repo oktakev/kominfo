@@ -76,6 +76,7 @@ Route::get('/PostHoax', function()
 
 //BUKAN PUNYA YADRI
 Route::get('/berita_hoax', 'App\Http\Controllers\frontend\hoax@index2');
+Route::get('App\Http\Controllers\frontend\hoax@index4');
 Route::get('/detil_hoax/{id}', 'App\Http\Controllers\frontend\hoax@edit2');
 
 //Route::get('/berita_hoax2', 'App\Http\Controllers\frontend\hoax2@index2');
