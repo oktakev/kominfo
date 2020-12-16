@@ -1,5 +1,5 @@
 @extends('newfrontend.main')
-@section('title','Home')
+@section('title','Beranda')
 
 
     @section('navbar')
