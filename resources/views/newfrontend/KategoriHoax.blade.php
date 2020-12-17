@@ -24,6 +24,9 @@
                                     <div class="category-news-image">
                                         <a href="PostHoax"><img src="resources/sinmun/assets/img/1.jpg" alt="image"></a>
 
+                                        <!-- <div class="tags bg-3">
+                                            <a href="#">Hoax</a>
+                                        </div> -->
                                     </div>
                                 </div>
 
@@ -63,7 +66,6 @@
                                 </div>
                             </div>
                         </div> -->
-
                         @if ($beritahoax->currentPage()  == 1)
                         <div class="pagination-area">
                         <a href="#" class="prev page-numbers"><i class="icofont-double-left"></i></a>
@@ -171,8 +173,8 @@
                                 <h3 class="widget-title">Kategori</h3>
 
                                 <ul>
-                                    <li><a href="kategori_hoax">Hoax</a></li>
-                                    <li><a href="kategori_disinformasi">Disinformasi</a></li>
+                                    <li><a href="KategoriHoax">Hoax</a></li>
+                                    <li><a href="KategoriHoax">Disinformasi</a></li>
                                 </ul>
                             </section>
                         </aside>

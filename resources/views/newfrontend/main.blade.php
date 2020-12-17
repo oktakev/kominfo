@@ -35,18 +35,13 @@
         .sinmun-nav.is-sticky {
             background-color: #007bff !important; 
         }
+
         .sinmun-nav nav .navbar-nav {
           margin-left: 0;
         }    
         .sinmun-nav nav .navbar-nav .nav-item:hover a {
             color: #f8f9fa;
         }
-    
-        .sinmun-nav nav .others-options ul li .nav-search .nav-search-inner input
-        {
-            padding-right : 50px;
-        } 
-
 </style>
 
 <body>
@@ -83,7 +78,6 @@
     </header>
     <!-- End Header Area -->
 
-    
     <!-- Navbar Menu -->
     @yield('navbar')
     <div class="sinmun-nav bg-primary">
@@ -91,20 +85,27 @@
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-
-                    <li class="nav-item"><a href="BerandaHoax" class="nav-link">Beranda</a></li>
-                    
-                        <li class="nav-item"><a href="" class="nav-link">Tentang</a>
+                        <li class="nav-item"><a href="#" class="nav-link">Beranda</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Visi Misi</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home One</a></li>
 
-                                <li class="nav-item"><a href="index-2.html" class="nav-link">Tugas Pokok Dan Fungsi</a></li>
+                                <li class="nav-item"><a href="index-2.html" class="nav-link">Home Two</a></li>
 
-                                <li class="nav-item"><a href="index-3.html" class="nav-link">Struktur Organisasi</a></li>
+                                <li class="nav-item"><a href="index-3.html" class="nav-link">Home Three</a></li>
+
+                                <li class="nav-item"><a href="index-4.html" class="nav-link">Home Four</a></li>
+
+                                <li class="nav-item"><a href="index-5.html" class="nav-link">Home Five</a></li>
+
+                                <li class="nav-item"><a href="index-6.html" class="nav-link">Home Six</a></li>
+
+                                <li class="nav-item"><a href="index-7.html" class="nav-link active">Home
+                                        Seven</a></li>
                             </ul>
                         </li>
 
-                    
+                        <li class="nav-item"><a href="post-category-2.html" class="nav-link">Tentang</a></li>
+
                         <li class="nav-item"><a href="post-category-1.html" class="nav-link">Layanan</a></li>
 
                         <li class="nav-item"><a href="post-category-5.html" class="nav-link">Berita</a></li>
