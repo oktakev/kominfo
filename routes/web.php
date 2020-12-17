@@ -82,3 +82,7 @@ Route::get('/detil_hoax/{id}', 'App\Http\Controllers\frontend\hoax@edit2');
 //Route::get('/berita_hoax2', 'App\Http\Controllers\frontend\hoax2@index2');
 //Route::get('/detil_hoax2/{id}', 'App\Http\Controllers\frontend\hoax2@edit2');
 
+Route::get('/coba', function(){
+    return view ('coba');
+});
+
