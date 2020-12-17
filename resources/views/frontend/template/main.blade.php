@@ -826,30 +826,29 @@
         </footer>
     </div>
     <!--#wrapper-->
-    <script type='text/javascript' id='contact-form-7-js-extra'>
-        /* <![CDATA[ */
-        var wpcf7 = {
-            "apiSettings": {
-                "root": "https:\/\/kominfo.bondowosokab.go.id\/wp-json\/contact-form-7\/v1",
-                "namespace": "contact-form-7\/v1"
-            }
-        };
-        /* ]]> */
-    </script>
-    <script type='text/javascript'
-        src='https://kominfo.bondowosokab.go.id/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.2'
-        id='contact-form-7-js'></script>
-    <script type='text/javascript'
-        src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/bootstrap.min.js?ver=5.1.5'
-        id='bootstrap-js'></script>
-    <script type='text/javascript'
-        src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/select2.min.js?ver=5.1.5'
-        id='select2-js'></script>
-    <script type='text/javascript'
-        src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/custom.js?ver=5.1.5'
-        id='consulting-custom-js'></script>
-    <script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-includes/js/wp-embed.min.js?ver=5.5.3'
-        id='wp-embed-js'></script>
+    <script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css'  href='//fonts.googleapis.com/css?family=Abril+Fatface%3Aregular&#038;subset=latin&#038;ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='owl.carousel-css'  href='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/css/owl.carousel.css?ver=5.2' type='text/css' media='all' />
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/kominfo.bondowosokab.go.id\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/bootstrap.min.js?ver=5.2' id='bootstrap-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/select2.min.js?ver=5.2' id='select2-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/custom.js?ver=5.2' id='consulting-custom-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.0.3' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' src='https://kominfo.bondowosokab.go.id/wp-content/themes/consulting/assets/js/owl.carousel.min.js?ver=5.2' id='owl.carousel-js'></script>
 </body>
-
 </html>
