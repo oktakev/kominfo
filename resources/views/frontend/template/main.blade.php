@@ -549,11 +549,13 @@ img.emoji {
   <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                             <div class="sidebar-area default_widgets">
                                 <aside id="search-2" class="widget widget_search">
-                                    <form method="get" class="search-form" action="https://kominfo.bondowosokab.go.id/">
-                                        <input type="search" class="form-control" placeholder="Search..." value=""
-                                            name="s" />
+                                    
+                              
+                                    <form method="GET" class="search-form" action="{{ url('query') }}" role="search">
+                                    {{ csrf_field() }}
+                                        <input type="search" class="form-control" placeholder="Search..." value="s"
+                                            name="q" />
                                         <button type="submit"><i class="fa fa-search"></i></button>
-                                    </form>
                                 </aside>
 @yield('berita_hoax_lainnya')
 @yield('berita_disinformasi_lainnya')
