@@ -1,59 +1,5 @@
 @extends('frontend.template.main')
-<p><strong><span>&sol; &ast;</span> Key points from the article, shown at the end, are extracted using HTML slot and Shadow DOM. <span>&ast; &sol;</span></strong></p>
-<article>
-  <h1>Bears</h1>
-  <p>ini</p>
 
-<p>adalah</p>
-
-<p><strong>asu</strong></p>
-
-<p><strong><em>goblok</em></strong></p>
-
-<p><strong><em><s>guendeng</s></em></strong></p>
-
-<p><a href="https://localhost/kominfo/detil_hoax/24">Dinas Komunikasi dan Informatika</a></p>
-  
-</article>
-
-<!-- section where the extracted keypoints will be displayed -->
-<section id='keyPointsSection'>
-  <h2>Key Points:</h2>
-  <ul><!-- extracted key points will go in here --></ul>
-</section>
-<p>Want to see where the key points are on the page? <button onclick='showKeyPoints(this)'>YES</button></p>
-<!-- template for the key points  -->
-<template id='keyPointsTemplate'>
-  <li><slot name='keyPoints'></slot></li>
-  <li style="text-align: center;">&#x2919;&mdash;&#x291a;</li>
-</template>
-
-
-<script>
-/* extract key points */
-const keyPointsTemplate = document.querySelector('#keyPointsTemplate').content;
-const keyPointsSection = document.querySelector('#keyPointsSection > ul');
-document.querySelectorAll('[slot]').forEach((slot)=>{
-  let span = slot.parentNode.cloneNode(true);
-  span.attachShadow({  mode: 'closed' }).appendChild(keyPointsTemplate.cloneNode(true));
-  keyPointsSection.appendChild(span);
-});
-
-
-
-
-
-
-/* function to highlight/unhighlight the key points on the article */
-function showKeyPoints(button){
-  switch(button.textContent){
-    case 'YES': document.querySelectorAll('article [slot]').forEach((span)=>{span.style.background = 'rgb(254, 231, 70)';}); 
-    button.textContent = 'NO'; break;
-    case 'NO': document.querySelectorAll('article [slot]').forEach((span)=>{span.style.background = 'none';}); 
-    button.textContent = 'YES';
-  }
-}
-</script>
 
 @section('hoax')
 <div id="main">
@@ -92,9 +38,17 @@ function showKeyPoints(button){
                                                 </div> -->
                                 </div>
                                 <div class="post_thumbnail">
-                                    <img width="800" height="458" src="{{ url('/images/gallery/'.$h->img) }}"
+                                        <img width="800" height="458" src="{{ url('/images/gallery/'.$h->img) }}"
                                         class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
-                                        alt="" loading="lazy" srcset="{{ url('/images/gallery/'.$h->img) }}" /> </div>
+                                        alt="" loading="lazy" srcset="{{ url('/images/gallery/'.$h->img) }}" id="image1"  /> 
+
+                                        <img width="800" height="458" src="./images/gallery/06864.png"
+                                        class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"
+                                        alt="" loading="lazy" srcset="./images/gallery/06864.png" id="image2" style="position: absolute; top: 5px; left: 25px;" /></div>
+                                        <!-- <div style="width: 800px; height: 200px; position: relative;">
+   <img  width="800" height="458" id="image1" style="position: relative;" src="./images/gallery/05903.jpg" alt="..." class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image" />
+   <img  width="800" height="458" id="image2" style="position: absolute; top: 25px; left: 25px;" src="./images/gallery/06864.png" alt="..." class="attachment-consulting-image-1110x550-croped size-consulting-image-1110x550-croped wp-post-image"/> -->
+                                        
                                 <div class="post_excerpt">
                                 </div>
                                 <div class="post_read_more">
