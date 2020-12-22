@@ -49,7 +49,58 @@
                                                 </div>
                                             </div>
                                             <div class="wpb_text_column">
-                                                <p style="text-align: justify;">{{ $h->content }}</p>
+                                                <!-- <p style="text-align: justify;">{{ $h->content }}</p> -->
+                                                <article>
+                                                {!! $h->content !!}
+                                                <p>ini</p>
+
+<p>adalah</p>
+
+<p><strong>asu</strong></p>
+
+<p><strong><em>goblok</em></strong></p>
+
+<p><strong><em><s>guendeng</s></em></strong></p>
+
+<p><a href="https://localhost/kominfo/detil_hoax/24">Dinas Komunikasi dan Informatika</a></p>
+  
+                                                </article>
+                                                <section id='keyPointsSection'>
+  <h2>Key Points:</h2>
+  <ul><!-- extracted key points will go in here --></ul>
+</section>
+{{ $h->content }}
+<p>Want to see where the key points are on the page? <button onclick='showKeyPoints(this)'>YES</button></p>
+<!-- template for the key points  -->
+<template id='keyPointsTemplate'>
+  <li><slot name='keyPoints'></slot></li>
+  <li style="text-align: center;">&#x2919;&mdash;&#x291a;</li>
+</template>
+<script>
+/* extract key points */
+const keyPointsTemplate = document.querySelector('#keyPointsTemplate').content;
+const keyPointsSection = document.querySelector('#keyPointsSection > ul');
+document.querySelectorAll('[slot]').forEach((slot)=>{
+  let span = slot.parentNode.cloneNode(true);
+  span.attachShadow({  mode: 'closed' }).appendChild(keyPointsTemplate.cloneNode(true));
+  keyPointsSection.appendChild(span);
+});
+
+
+
+
+
+
+/* function to highlight/unhighlight the key points on the article */
+function showKeyPoints(button){
+  switch(button.textContent){
+    case 'YES': document.querySelectorAll('article [slot]').forEach((span)=>{span.style.background = 'rgb(254, 231, 70)';}); 
+    button.textContent = 'NO'; break;
+    case 'NO': document.querySelectorAll('article [slot]').forEach((span)=>{span.style.background = 'none';}); 
+    button.textContent = 'YES';
+  }
+}
+</script>
                                             </div>
                                             <br />
                                             <br />
@@ -144,3 +195,4 @@
                             </aside>
 
 @endsection
+
