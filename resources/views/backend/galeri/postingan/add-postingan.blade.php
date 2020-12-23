@@ -29,7 +29,7 @@
                         <select class="form-control @error('id_category') is-invalid @enderror" name="id_category" id=""
                         value="{{ old('id_category')}}">
                         <option value="">---Pilih Kategori---</option>
-                        @foreach($gallery_categories as $gl)
+                        @foreach($id_category as $gl)
                             <option value="{{ $gl->id_category }}">{{ $gl->category_name}}</option>
                         @endforeach
                         </select>

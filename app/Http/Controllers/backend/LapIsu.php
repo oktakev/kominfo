@@ -73,8 +73,8 @@ class LapIsu extends Controller
         DB::table('hoax')->where('id_hoax',$request->id)->update([
             'judul' => $request->judul,
             'id_kategori' => $request->id_kategori,
-            'sumber' => $request->sumber,
             'tanggal_upload'=> Carbon::now(),
+            'sumber' => $request->sumber,
             'gambar' => $request->id_gallery,
             'content' => $request->content
         ]);
