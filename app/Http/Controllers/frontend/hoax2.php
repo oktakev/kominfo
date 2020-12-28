@@ -52,7 +52,7 @@ class hoax2 extends Controller
         ->where('hoax.id_kategori','=',5)
         ->orderBy('id_hoax', 'desc')
         ->paginate(4);
-        return view('newfrontend/PostHoax2', ['beritahoax' => $beritahoax]);
+        return view('newfrontend/KategoriDis', ['beritahoax' => $beritahoax]);
 
     }
 

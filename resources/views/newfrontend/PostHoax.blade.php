@@ -23,14 +23,18 @@
                             
                                     <li><i class="icofont-eye-alt"></i> 1040</li>
                                     <li><i class="icofont-calendar"></i> {{ $h->tanggal_upload }}</li>
+                                    <li><i class="icofont-eye-alt"></i>Kategori - {{ $h->kategori }}</li>
                                 </ul>
 
                                 <h3 class="mb-0">{{ $h->judul}}</h3>
+                                
                             </div>
 
                             <div class="article-img">
+                            
                                 
                                 <img src="{{ url('/images/gallery/'.$h->img) }}"  alt="image">
+                                <img src="{{ url('./images/gallery/06864.png') }}"  alt="image" style="position: absolute; top: 200px; left: 5px;">
                             </div>
 
                             <div class="article-content">

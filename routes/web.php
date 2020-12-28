@@ -73,7 +73,7 @@ Route::get('App\Http\Controllers\frontend\hoax@index4');
 Route::get('/detil_hoax/{id}', 'App\Http\Controllers\frontend\hoax@edit2');
 Route::get('/query','App\Http\Controllers\frontend\hoax@search');
 
-Route::get('/berita_hoax2', 'App\Http\Controllers\frontend\hoax2@index');
-Route::get('/kat_hoax2', 'App\Http\Controllers\frontend\hoax2@index2');
-Route::get('/kat_dis2', 'App\Http\Controllers\frontend\hoax2@index3');
+Route::get('/beranda', 'App\Http\Controllers\frontend\hoax2@index');
+Route::get('/kategori_hoaks', 'App\Http\Controllers\frontend\hoax2@index2');
+Route::get('/kategori_disinformasi', 'App\Http\Controllers\frontend\hoax2@index3');
 Route::get('/detil_hoax2/{id}', 'App\Http\Controllers\frontend\hoax2@edit2');

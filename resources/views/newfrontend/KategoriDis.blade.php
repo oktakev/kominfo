@@ -77,8 +77,8 @@
                         <div class="pagination-area">
                         <a href="#" class="prev page-numbers"><i class="icofont-double-left"></i></a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
                         @elseif ($beritahoax->currentPage()  == 2 && $beritahoax->currentPage() ==  $beritahoax->lastPage())
@@ -87,7 +87,7 @@
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
                             
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
@@ -98,10 +98,10 @@
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
                             
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
                         @elseif ($beritahoax->currentPage() ==  $beritahoax->lastPage() - 1)
@@ -109,10 +109,10 @@
                         
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
                         
@@ -121,11 +121,11 @@
                         
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 1 }}" class="page-numbers">{{ $beritahoax->currentPage() + 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() + 2 }}" class="page-numbers">{{ $beritahoax->currentPage() + 2 }} </a>
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
                        
@@ -135,8 +135,8 @@
                         
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
@@ -145,8 +145,8 @@
                         
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
@@ -167,8 +167,8 @@
                         <br>
                         <div class="pagination-area">
                             <a href="{{ $beritahoax->previousPageUrl() }}" class="prev page-numbers"><i class="icofont-double-left"></i></a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
-                            <a href="kategori_hoaks?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 2 }}" class="page-numbers">{{ $beritahoax->currentPage() - 2 }} </a>
+                            <a href="kategori_disinformasi?page={{ $beritahoax->currentPage() - 1 }}" class="page-numbers">{{ $beritahoax->currentPage() - 1 }} </a>
                             <span class="page-numbers current" aria-current="page">{{ $beritahoax->currentPage() }}</span>
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
