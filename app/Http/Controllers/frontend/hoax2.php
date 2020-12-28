@@ -35,8 +35,10 @@ class hoax2 extends Controller
         ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->where('hoax.id_kategori','=',4)
         ->orderBy('id_hoax', 'desc')
-        ->paginate(4);
+        ->paginate(5);
         return view('newfrontend/KategoriHoax', ['beritahoax' => $beritahoax]);
+
+        
 
     }
     public function index3()
