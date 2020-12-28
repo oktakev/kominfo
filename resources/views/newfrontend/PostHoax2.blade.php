@@ -3,14 +3,13 @@
 
 
 @section('navbar')
-@stop
+
 
 <!------Content-------->
 <!--------------------->
 <!--------------------->
 
-    @section('content2')
-    
+    @section('content')
     <!-- Start News Details Area -->
         <section class="news-details-area-custom">
             <div class="container">
@@ -28,8 +27,7 @@
                             </div>
 
                             <div class="article-img">
-                                
-                                <img src="{{ asset('resources/sinmun/assets/img/1.jpg') }}"  alt="image">
+                                <img src="resources/sinmun/assets/img/1.jpg" alt="image">
                             </div>
 
                             <div class="article-content">

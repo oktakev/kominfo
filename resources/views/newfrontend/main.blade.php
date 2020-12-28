@@ -7,28 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap Min CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/bootstrap.min.css') }}">
+    
     <!-- Animate Min CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/animate.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/animate.min.css') }}">
     <!-- IcoFont Min CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/icofont.min.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/icofont.min.css') }}">
     <!-- MeanMenu CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/meanmenu.css') }}">
     <!-- Owl Carousel Min CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/owl.carousel.min.css">
-    <!-- Magnific Popup Min CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/magnific-popup.min.css') }}">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/style.css') }}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="resources/sinmun/assets/css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/responsive.css') }}">
 
     
 
 
     <title>@yield('title')</title>
 
-    <link rel="icon" type="image/png" href="resources/sinmun/assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="{{ asset('resources/sinmun/assets/img/favicon.png') }}">
 </head>
 
 <style>
@@ -54,15 +55,14 @@
         <div class="navbar-area">
             <div class="sinmun-mobile-nav">
                 <div class="logo">
-                    <a href="HomeBeritaHoax"><img src="resources/sinmun/assets/img/logo1.png" alt="logo"></a>
+                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}" alt="logo"></a>
                 </div>
             </div>
 
             <div class="sinmun-nav pt-0">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-dark">
-                        <a class="navbar-brand" href="HomeBeritaHoax"><img src="resources/sinmun/assets/img/logo1.png"
-                                alt="logo"></a>
+                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}" alt="logo"></a>
                     </nav>
                 </div>
             </div>
@@ -196,6 +196,7 @@
 
     @yield('content')
 
+    @yield('content2')
     @yield('footer')
     <!-- Start Footer Area -->
     <footer class="footer-area">
@@ -236,7 +237,8 @@
                         <div class="footer-latest-news-list">
                             <div class="media latest-news-media align-items-center">
                                 <a href="#">
-                                    <img src="resources/sinmun/assets/img/small-2.jpg" alt="image">
+                                    <img src="{{ asset('resources/sinmun/assets/img/small-2.jpg') }}"  alt="image">
+                                    
                                 </a>
 
                                 <div class="content">
@@ -299,27 +301,27 @@
     <!-- End Footer Area -->
 
     <div class="go-top"><i class="icofont-swoosh-up"></i></div>
-
+ 
     <!-- Jquery Min JS -->
-    <script src="resources/sinmun/assets/js/jquery.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/jquery.min.js') }}"></script>
     <!-- Popper Min JS -->
-    <script src="resources/sinmun/assets/js/popper.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/popper.min.js') }}"></script>
     <!-- Bootstrap Min JS -->
-    <script src="resources/sinmun/assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/bootstrap.min.js') }}"></script>
     <!-- MeanMenu JS -->
-    <script src="resources/sinmun/assets/js/jquery.meanmenu.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/jquery.meanmenu.js') }}"></script>
     <!-- Owl Carousel Min JS -->
-    <script src="resources/sinmun/assets/js/owl.carousel.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/owl.carousel.min.js') }}"></script>
     <!-- Magnific Popup Min JS -->
-    <script src="resources/sinmun/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Form Validator Min JS -->
-    <script src="resources/sinmun/assets/js/form-validator.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/form-validator.min.js') }}"></script>
     <!-- Contact Form Script JS -->
-    <script src="resources/sinmun/assets/js/contact-form-script.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/contact-form-script.js') }}"></script>
     <!-- ajaxChimp Min JS -->
-    <script src="resources/sinmun/assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/jquery.ajaxchimp.min.js') }}"></script>
     <!-- Main JS -->
-    <script src="resources/sinmun/assets/js/main.js"></script>
+    <script src="{{ asset('resources/sinmun/assets/js/main.js') }}"></script>
 </body>
 
 </html>

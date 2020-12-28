@@ -22,7 +22,9 @@
                             <div class="row  m-0 align-items-center">
                                 <div class="col-lg-5 col-md-6 p-0">
                                     <div class="category-news-image">
-                                        <a href="PostHoax"><img src="resources/sinmun/assets/img/1.jpg" alt="image"></a>
+                                        <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
+
+                                        <a href="PostHoax"><img width="400" height="200" src="./images/gallery/06864.png" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
 
                                         <!-- <div class="tags bg-3">
                                             <a href="#">Hoax</a>
@@ -34,7 +36,12 @@
                                     <div class="category-news-content">
                                         <span><i class="icofont-clock-time"></i> {{ $h->tanggal_upload }}</span>
                                         <h3><a href="#">{{ $h->judul}}</a></h3>
-                                        <p>{{ substr($h->content,0,150) }} ...</p>
+                                        <div>
+                                        <!-- {!! substr($h->content,0,150) !!} -->
+                                        <p>Mungkin diisi sinopsis</p>
+                                        <br><br>
+                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
