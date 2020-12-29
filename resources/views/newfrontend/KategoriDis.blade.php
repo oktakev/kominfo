@@ -24,7 +24,7 @@
                                     <div class="category-news-image">
                                         <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
 
-                                        <a href="PostHoax"><img width="400" height="200" src="./images/gallery/06864.png" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
+                                        <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
 
                                         <!-- <div class="tags bg-3">
                                             <a href="#">Hoax</a>
@@ -151,7 +151,7 @@
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
-                        </div>
+                        
                         @elseif ($beritahoax->currentPage()  > $beritahoax->total() /  $beritahoax->perPage() )
                         
                         
@@ -177,7 +177,7 @@
                         @endif
                         
                         
-                    
+                        </div>
 
                     <div class="col-lg-4 col-md-12">
                         

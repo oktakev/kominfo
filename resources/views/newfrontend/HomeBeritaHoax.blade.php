@@ -23,7 +23,7 @@
                         <div class="posts-thumb align-self-stretch">
                         <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
 
-                        <a href="PostHoax"><img width="400" height="200" src="{{ url('./images/gallery/06864.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
+                        <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
 
                         
                         </div>
@@ -128,7 +128,7 @@
                             
                             <a href="{{ $beritahoax->nextPageUrl() }}" class="next page-numbers"><i class="icofont-double-right"></i></a>
                         </div>
-                        </div>
+                        
                         @elseif ($beritahoax->currentPage()  > $beritahoax->total() /  $beritahoax->perPage() )
                         
                         
@@ -152,7 +152,7 @@
                         </div>
                         </div>
                         @endif
-            
+                        </div>
 
             <div class="col-lg-4">
                 <aside class="widget-area" id="secondary">
