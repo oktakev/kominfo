@@ -8,7 +8,7 @@
 
     <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/bootstrap.min.css') }}">
-    
+
     <!-- Animate Min CSS -->
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/animate.min.css') }}">
@@ -24,7 +24,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{ asset('resources/sinmun/assets/css/responsive.css') }}">
 
-    
+
 
 
     <title>@yield('title')</title>
@@ -33,16 +33,24 @@
 </head>
 
 <style>
-        .sinmun-nav.is-sticky {
-            background-color: #007bff !important; 
-        }
+    .sinmun-nav.is-sticky {
+        background-color: #007bff !important;
+    }
 
-        .sinmun-nav nav .navbar-nav {
-          margin-left: 0;
-        }    
-        .sinmun-nav nav .navbar-nav .nav-item:hover a {
-            color: #f8f9fa;
-        }
+    .sinmun-nav nav .navbar-nav {
+        margin-left: 0;
+    }
+
+    .sinmun-nav nav .navbar-nav .nav-item:hover a {
+        color: #f8f9fa;
+    }
+
+    .responsive {
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+    }
+
 </style>
 
 <body>
@@ -55,14 +63,16 @@
         <div class="navbar-area">
             <div class="sinmun-mobile-nav">
                 <div class="logo">
-                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}" alt="logo"></a>
+                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
+                            alt="logo"></a>
                 </div>
             </div>
 
             <div class="sinmun-nav pt-0">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-dark">
-                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}" alt="logo"></a>
+                        <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
+                                alt="logo"></a>
                     </nav>
                 </div>
             </div>
@@ -85,7 +95,7 @@
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#" class="nav-link">Beranda</a>
+                        <li class="nav-item"><a href="@yield('beranda')" class="nav-link">Beranda</a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item"><a href="index.html" class="nav-link">Home One</a></li>
 
@@ -204,21 +214,21 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single-footer-widget">
-                        
+
 
                         <div class="contact-info">
-                            <p>You can reach us via phone, email and website. Or send us some message through our
-                                Contact Page.</p>
+                            <p>Ini adalah website milik kominfo Bondowoso dengan jam kerja Senin - Jumat 07.00 - 16.00, Sabtu - Minggu TUTUP</p>
 
                             <ul>
-                                <li><i class="icofont-google-map"></i> 27 Division St, New York, NY 10002, USA</li>
-                                <li><i class="icofont-phone"></i> <a href="#">+(587) 234-4521</a></li>
-                                <li><i class="icofont-envelope"></i> <a href="#">info@sinmun.com</a></li>
+                                <li><i class="icofont-google-map"></i> Jl. Letjen Panjaitan No. 234
+ <strong>Bondowoso</strong></li>
+                                <li><i class="icofont-phone"></i> <a href="#">0332 - 421707</a></li>
+                                <li><i class="icofont-envelope"></i> <a href="#">diskominfo@bondowosokab.go.id</a></li>
                             </ul>
                         </div>
 
                         <div class="connect-social">
-                                
+
                             <ul>
                                 <li><a href="#" target="_blank"><i class="icofont-facebook"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="icofont-twitter"></i></a></li>
@@ -231,57 +241,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <div class="single-footer-widget">
-                        <h3>Latest News</h3>
-
-                        <div class="footer-latest-news-list">
-                            <div class="media latest-news-media align-items-center">
-                                <a href="#">
-                                    <img src="{{ asset('resources/sinmun/assets/img/small-2.jpg') }}"  alt="image">
-                                    
-                                </a>
-
-                                <div class="content">
-                                    <ul>
-                                        <li><i class="icofont-calendar"></i> March 22, 2019</li>
-                                        <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
-                                    </ul>
-
-                                    <h3><a href="#">Judul berita terakhir</a></h3>
-                                </div>
-                            </div>
-
-                            <div class="media latest-news-media align-items-center">
-                                <a href="#">
-                                    <img src="resources/sinmun/assets/img/small-4.jpg" alt="image">
-                                </a>
-
-                                <div class="content">
-                                    <ul>
-                                        <li><i class="icofont-calendar"></i> March 22, 2019</li>
-                                        <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
-                                    </ul>
-
-                                    <h3><a href="#">Judul berita terakhir</a></h3>
-                                </div>
-                            </div>
-
-                            <div class="media latest-news-media align-items-center">
-                                <a href="#">
-                                    <img src="resources/sinmun/assets/img/small-3.jpg" alt="image">
-                                </a>
-
-                                <div class="content">
-                                    <ul>
-                                        <li><i class="icofont-calendar"></i> March 22, 2019</li>
-                                        <li><a href="#"><i class="icofont-comment"></i> 12</a></li>
-                                    </ul>
-
-                                    <h3><a href="#">Judul berita terakhir</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -301,7 +261,7 @@
     <!-- End Footer Area -->
 
     <div class="go-top"><i class="icofont-swoosh-up"></i></div>
- 
+
     <!-- Jquery Min JS -->
     <script src="{{ asset('resources/sinmun/assets/js/jquery.min.js') }}"></script>
     <!-- Popper Min JS -->

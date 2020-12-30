@@ -1,6 +1,6 @@
 @extends('newfrontend.main')
 @section('title','Kategori Hoax')
-
+@section('beranda','./beranda')
 
     @section('navbar')
     

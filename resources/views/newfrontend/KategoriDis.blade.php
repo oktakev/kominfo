@@ -1,6 +1,6 @@
 @extends('newfrontend.main')
 @section('title','Kategori Hoax')
-
+@section('beranda','./beranda')
 
     @section('navbar')
     
@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
                         <div class="section-title">
-                            <h2>Kategori - Hoax</h2>
+                            <h2>Kategori - Disinformasi</h2>
                         </div>
                         @foreach($beritahoax as $h)
                         <div class="single-category-news">

@@ -1,6 +1,6 @@
 @extends('newfrontend.main')
 @section('title','Home')
-
+@section('beranda','./beranda')
 
 @section('navbar')
 
@@ -32,18 +32,22 @@
                             <div class="cat">
                                 <a href="KategoriHoax">Kategori - {{ $h->kategori }}</a>
                             </div>
-                            <h3 class="title"><a href="#">Ini Judul Berita</a></h3>
+                            <h3 class="title"><a href="#">{{ $h->judul }}</a></h3>
 
                             <div class="posts-meta">
-                                February 25, 2019
+                            {{ $h->tanggal_upload }}
                             </div>
 
-                            <p>Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur
-                                elementum nunc.</p>
-
-                            <a href="PostHoax" class="read-more-btn"><span>Baca Lanjutan</span> <i
-                                    class="icofont-arrow-right"></i></a>
+                            <p id="demo">
+                            {!! substr("$h->content",0,100) !!}
+                            
+                            </p>
+              
+                            
+                                    <br>
+                            <a href="PostHoax" class="read-more-btn"></a>
                         </div>
+                        
                         @endforeach
                     </div>
 
