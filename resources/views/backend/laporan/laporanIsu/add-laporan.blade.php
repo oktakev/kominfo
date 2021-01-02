@@ -65,4 +65,5 @@
         </div>
     </div>
 </div>
+@include('backend.galeri.gallery-template.modal-gallery')
 @endsection

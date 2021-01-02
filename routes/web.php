@@ -42,7 +42,7 @@ Route::get('/admin/gallery/gallery', 'App\Http\Controllers\backend\Gallery@index
 Route::get('/admin/gallery/categories', 'App\Http\Controllers\backend\Categories@index');
 Route::post('/admin/galeri/postingan/tambah-postingan','App\Http\Controllers\backend\Postingan@proses');
 Route::post('/admin/galeri/postingan/edit-postingan/update', 'App\Http\Controllers\backend\Postingan@update');
-Route::get('/admin/gallery/bycategory', 'backend\Postingan@bycategory');
+Route::get('/admin/gallery/bycategory', 'App\Http\Controllers\backend\Postingan@bycategory');
 
 
 

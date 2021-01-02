@@ -54,13 +54,8 @@ class Admin extends Controller
     function dashboard()
     {
         $arr = array(
-            "laphoaks" => DB::table('hoax')
-                        ->select(array(DB::raw('count(id_hoax) as ttl')))
-                        ->where('id_kategori','4')
-                        ->get(),
-            "lapfakta" => DB::table('hoax')
-                        ->select(array(DB::raw('count(id_hoax) as ttl')))
-                        ->where('id_kategori','5')
+            "lapfakta" => DB::table('laporan_kategori')
+                        ->select('*')
                         ->get(),
             "hoaks" => DB::table("hoax")
                     ->select(array(DB::raw('count(id_hoax) as ttl')))

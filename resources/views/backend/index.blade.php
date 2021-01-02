@@ -2,31 +2,28 @@
 @section('admin')
 <div class="row">
     <!-- Column -->
-    <div class="col-md-3">
-        <div class="card card-hover">
-            <div class="box bg-info text-center">
-                <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
-                <h5 class="text-white">
-                    Jumlah Laporan Hoaks                    
-                    <br>
-                    {{$laphoaks[0]->ttl}}
-                </h5>
-            </div>
-        </div>
-    </div>
+    <?php 
+        foreach ($lapfakta as $key => $value) {
+            $data = DB::table("hoax")
+            ->select(array(DB::raw('count(id_hoax) as ttl')))
+            ->where('id_kategori',$value->id_kategori)
+            ->get();
+    ?>
     <div class="col-md-3">
         <div class="card card-hover">
             <div class="box bg-warning text-center">
                 <h1 class="font-light text-white"><i class="mdi mdi-currency-usd"></i></h1>
                 <h5 class="text-white">
-                Jumlah Laporan Fakta 
+                Jumlah Laporan {{$value ->kategori}} 
                     <br>
-                    {{$lapfakta[0]->ttl}}
+                    <?php 
+                        echo $data[0]->ttl;
+                    ?>
                 </h5>
             </div>
         </div>
     </div>
-
+    <?php } ?>
     <div class="col-md-3">
         <div class="card card-hover">
             <div class="box bg-success text-center">

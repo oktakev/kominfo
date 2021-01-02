@@ -1,20 +1,20 @@
 $(document).ready(function(){
 
-    setInterval(getNotif,2000)
-    function getNotif(){
-        var url = $(".interval").data("url")
-        $.ajax({
-            url : url,
-            success : function(data){
-                if(data>0){
-                    $("#countNotif").html(data)
-                }
-                else{
-                    $("#countNotif").html("")
-                }
-            }
-        })
-    }
+    // setInterval(getNotif,2000)
+    // function getNotif(){
+    //     var url = $(".interval").data("url")
+    //     $.ajax({
+    //         url : url,
+    //         success : function(data){
+    //             if(data>0){
+    //                 $("#countNotif").html(data)
+    //             }
+    //             else{
+    //                 $("#countNotif").html("")
+    //             }
+    //         }
+    //     })
+    // }
 
     $(".link-notif").click(function(){
         var url = $(this).data("url")
