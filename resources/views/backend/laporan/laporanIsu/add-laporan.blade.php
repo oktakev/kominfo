@@ -38,13 +38,6 @@
                                 @enderror
                                 </div>
                             <div class="col-md-12 m-t-15">
-                                <label for="">Sumber</label>
-                                <input type="text" name="sumber" class="form-control @error('sumber') is-invalid @enderror" value="{{ old('sumber')}}">
-                                @error('sumber')
-                                    <div class="invalid-feedback"> {{ $message}} </div>
-                                @enderror
-                            </div>
-                            <div class="col-md-12 m-t-15">
                                 <label for="">Gallery</label>
                                 @include('backend.galeri.gallery-template.gallery-hidden')
                             </div>

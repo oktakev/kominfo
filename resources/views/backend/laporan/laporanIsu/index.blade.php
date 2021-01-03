@@ -23,7 +23,6 @@
                                 <th>No</th>
                                 <th>Judul</th>
                                 <th>Kategori</th>
-                                <th>Link Sumber</th>
                                 <th>Tanggal Upload</th>
                                 <th>Gambar</th>
                                 <th>Content</th>
@@ -36,7 +35,6 @@
                             <th scope="row">{{ $loop->iteration }}</th>
                             <td>{{ $h->judul}}</td>
                             <td>{{ $h->kategori }}</td>
-                            <td>{{ $h->sumber }}</td>
                             <td>{{ $h->tanggal_upload }}</td>
                             <td><img style="height: 100px; width: 100px;" src="{{ url('/images/gallery/'.$h->img) }}" alt="" class="img-fluid transition"></td>
                             <td>{{substr(strip_tags($h->content),0,100). ' ...'}}
@@ -46,10 +44,11 @@
                                             Options
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item"  href="edit-isu/{{$h->id_hoax}}">Edit</a>
+                                            <a class="dropdown-item"  href="frontend">Detail</a>
+                                             <a class="dropdown-item"  href="edit-isu/{{$h->id_hoax}}">Edit</a>
                                             <a class="dropdown-item"  href="delete/{{ $h->id_hoax}}">Hapus</a>
+                                   </div>
                                         </div>
-                                    </div>
                                 </td>
                             </tr>
                             @endforeach   
