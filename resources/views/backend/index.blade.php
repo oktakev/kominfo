@@ -83,37 +83,4 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="box">
-                <h5 class="color-orange">Artikel </h5>
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <td>#</td>
-                                <td>User</td>
-                                <td>Package Name</td>
-                                <td>Durations</td>
-                                <td>Travel Start</td>
-                                <td>Travel Finish</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                              <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

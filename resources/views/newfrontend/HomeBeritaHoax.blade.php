@@ -15,24 +15,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-
+            <div class="section-title">
+                            <h2>Berita Terbaru</h2>
+                        </div>
                 <div class="blog-box">
 
                     <div class="d-flex flex-wrap">
                         @foreach($beritahoax as $h)
                         <div class="posts-thumb align-self-stretch">
-                        <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
+                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="600" height="400" src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive"></a>
 
-                        <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
+                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;" ></a>
 
                         
                         </div>
 
                         <div class="posts-content">
                             <div class="cat">
-                                <a href="KategoriHoax">Kategori - {{ $h->kategori }}</a>
+                                <a href="#">Kategori - {{ $h->kategori }}</a>
                             </div>
-                            <h3 class="title"><a href="#">{{ $h->judul }}</a></h3>
+                            <h3 class="title"><a href="detil_hoax2/{{ $h->id_hoax }}">{{ $h->judul }}</a></h3>
 
                             <div class="posts-meta">
                             {{ $h->tanggal_upload }}

@@ -22,7 +22,7 @@
                             <div class="row  m-0 align-items-center">
                                 <div class="col-lg-5 col-md-6 p-0">
                                     <div class="category-news-image">
-                                        <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image"></a>
+                                        <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive"></a>
 
                                         <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
 

@@ -86,4 +86,22 @@ class hoax2 extends Controller
               
         
     }
+    public function search(Request $request){
+
+        $query = $request->get('q');
+
+        $hasil = DB::table('hoax')
+        ->where('judul', 'LIKE', '%' . $query . '%')
+        ->join('gallery','gallery.id_gallery','hoax.gambar')
+        ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
+        ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
+        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')        
+        ->orderBy('id_hoax', 'desc')
+        // ->get();
+        ->paginate(1000);
+
+        // return response($query . 'Hi, i am okay', 200)
+        //           ->header('Content-Type', 'text/plain');
+        return view('newfrontend/ResultHoax', compact('hasil', 'query'));
+}
 }
