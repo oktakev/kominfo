@@ -20,7 +20,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->orderBy('id_hoax', 'desc')
         ->paginate(4);
         return view('newfrontend/HomeBeritaHoax', ['beritahoax' => $beritahoax]);
@@ -32,7 +32,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->where('hoax.id_kategori','=',4)
         ->orderBy('id_hoax', 'desc')
         ->paginate(5);
@@ -48,7 +48,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->where('hoax.id_kategori','=',5)
         ->orderBy('id_hoax', 'desc')
         ->paginate(4);
@@ -62,7 +62,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')        
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')        
         ->orderBy('id_hoax', 'desc')
         ->get();
 
@@ -70,7 +70,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')
         ->orderBy('id_hoax', 'desc')
         ->get();
 
@@ -95,7 +95,7 @@ class hoax2 extends Controller
         ->join('gallery','gallery.id_gallery','hoax.gambar')
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
-        ,'hoax.sumber','hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')        
+        ,'hoax.tanggal_upload','hoax.gambar','gallery.img','hoax.content')        
         ->orderBy('id_hoax', 'desc')
         // ->get();
         ->paginate(1000);
