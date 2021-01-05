@@ -70,7 +70,10 @@ class Admin extends Controller
         ->join('laporan_kategori','laporan_kategori.id_kategori','hoax.id_kategori')
         ->select('hoax.id_hoax','hoax.judul','laporan_kategori.kategori'
         ,'hoax.tanggal_upload')
+        ->inRandomOrder()
+        ->limit(5)
         ->get();
+
 
         return view('backend.index', $arr, ['hoax' => $populer]);
     }
