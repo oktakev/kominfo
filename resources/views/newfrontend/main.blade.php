@@ -50,7 +50,6 @@
         width: 300px;
         height: 300px;
     }
-
 </style>
 
 <body>
@@ -63,7 +62,7 @@
         <div class="navbar-area">
             <div class="sinmun-mobile-nav">
                 <div class="logo">
-                    <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
+                    <a href="#"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
                             alt="logo"></a>
                 </div>
             </div>
@@ -71,7 +70,7 @@
             <div class="sinmun-nav pt-0">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-dark">
-                        <a href="HomeBeritaHoax"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
+                        <a href="@yield('beranda')"><img src="{{ asset('resources/sinmun/assets/img/logo1.png') }}"
                                 alt="logo"></a>
                     </nav>
                 </div>
@@ -96,86 +95,26 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="@yield('beranda')" class="nav-link">Beranda</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home One</a></li>
+                            
+                        </li>
 
-                                <li class="nav-item"><a href="index-2.html" class="nav-link">Home Two</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Tentang</a></li>
 
-                                <li class="nav-item"><a href="index-3.html" class="nav-link">Home Three</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Layanan</a></li>
 
-                                <li class="nav-item"><a href="index-4.html" class="nav-link">Home Four</a></li>
+                        <li class="nav-item"><a href="@yield('beranda')" class="nav-link">Berita</a>
+                        <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="kategori_hoaks" class="nav-link">Hoaks</a></li>
 
-                                <li class="nav-item"><a href="index-5.html" class="nav-link">Home Five</a></li>
+                                <li class="nav-item"><a href="kategori_disinformasi" class="nav-link">Disinformasi</a></li>
 
-                                <li class="nav-item"><a href="index-6.html" class="nav-link">Home Six</a></li>
-
-                                <li class="nav-item"><a href="index-7.html" class="nav-link active">Home
-                                        Seven</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a href="post-category-2.html" class="nav-link">Tentang</a></li>
-
-                        <li class="nav-item"><a href="post-category-1.html" class="nav-link">Layanan</a></li>
-
-                        <li class="nav-item"><a href="post-category-5.html" class="nav-link">Berita</a></li>
-
-                        <li class="nav-item"><a href="post-category-3.html" class="nav-link">Galeri</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Galeri</a></li>
 
                         <li class="nav-item"><a href="#" class="nav-link">Kontak</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="#" class="nav-link">Category Layout</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="post-category-1.html" class="nav-link">Category
-                                                Layout 1</a></li>
-
-                                        <li class="nav-item"><a href="post-category-2.html" class="nav-link">Category
-                                                Layout 2</a></li>
-
-                                        <li class="nav-item"><a href="post-category-3.html" class="nav-link">Category
-                                                Layout 3</a></li>
-
-                                        <li class="nav-item"><a href="post-category-4.html" class="nav-link">Category
-                                                Layout 4</a></li>
-
-                                        <li class="nav-item"><a href="post-category-5.html" class="nav-link">Category
-                                                Layout 5</a></li>
-
-                                        <li class="nav-item"><a href="post-category-6.html" class="nav-link">Category
-                                                Layout 6</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item"><a href="#" class="nav-link">Post Fomate</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="single-post-1.html" class="nav-link">Single Post
-                                                1</a></li>
-
-                                        <li class="nav-item"><a href="single-post-2.html" class="nav-link">Single Post
-                                                2</a></li>
-
-                                        <li class="nav-item"><a href="single-post-3.html" class="nav-link">Single Post
-                                                3</a></li>
-
-                                        <li class="nav-item"><a href="single-post-4.html" class="nav-link">Single Post
-                                                4</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-
-                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-
-                                <li class="nav-item"><a href="login.html" class="nav-link">Log In</a></li>
-
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Sign Up</a></li>
-
-                                <li class="nav-item"><a href="404-error.html" class="nav-link">404 Error</a>
-                                </li>
-
-                                <li class="nav-item"><a href="coming-soon.html" class="nav-link">Coming Soon</a>
-                                </li>
-                            </ul>
+                            
                         </li>
                     </ul>
 
@@ -188,10 +127,11 @@
                                         <i class="icofont-ui-search"></i>
                                     </div>
 
-                                    <form class="">
+                                    <form method="GET" action="{{ url('query') }}" role="search">
+                                    {{ csrf_field() }}
                                         <span class="nav-search-close-button" tabindex="0">✕</span>
                                         <div class="nav-search-inner">
-                                            <input type="text" name="search" placeholder="Search here....">
+                                            <input type="search" name="q" placeholder="Search here....">
                                         </div>
                                     </form>
                                 </div>
@@ -204,84 +144,87 @@
     </div>
     <!-- End Navbar Menu -->
 
-    @yield('content')
 
-    @yield('content2')
-    @yield('footer')
-    <!-- Start Footer Area -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-footer-widget">
+        @yield('content')
 
-
-                        <div class="contact-info">
-                            <p>Ini adalah website milik kominfo Bondowoso dengan jam kerja Senin - Jumat 07.00 - 16.00, Sabtu - Minggu TUTUP</p>
-
-                            <ul>
-                                <li><i class="icofont-google-map"></i> Jl. Letjen Panjaitan No. 234
- <strong>Bondowoso</strong></li>
-                                <li><i class="icofont-phone"></i> <a href="#">0332 - 421707</a></li>
-                                <li><i class="icofont-envelope"></i> <a href="#">diskominfo@bondowosokab.go.id</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="connect-social">
-
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="icofont-facebook"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="icofont-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="icofont-linkedin"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="icofont-instagram"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="icofont-rss"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="copyright-area">
+        @yield('content2')
+        @yield('footer')
+        <!-- Start Footer Area -->
+        <footer class="footer-area">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <p>Copyright © 2019 <a href="http://envytheme.com" target="_blank">EnvyTheme</a>. All Rights
-                            Reserved.</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-footer-widget">
+
+
+                            <div class="contact-info">
+                                <p>Ini adalah website milik kominfo Bondowoso dengan jam kerja Senin - Jumat 07.00 -
+                                    16.00, Sabtu - Minggu TUTUP</p>
+
+                                <ul>
+                                    <li><i class="icofont-google-map"></i> Jl. Letjen Panjaitan No. 234
+                                        <strong>Bondowoso</strong></li>
+                                    <li><i class="icofont-phone"></i> <a href="#">0332 - 421707</a></li>
+                                    <li><i class="icofont-envelope"></i> <a href="#">diskominfo@bondowosokab.go.id</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="connect-social">
+
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="icofont-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="icofont-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="icofont-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="col-lg-6 col-md-6">
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- End Footer Area -->
 
-    <div class="go-top"><i class="icofont-swoosh-up"></i></div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <p>Copyright © 2019 <a href="http://envytheme.com" target="_blank">EnvyTheme</a>. All Rights
+                                Reserved.</p>
+                        </div>
 
-    <!-- Jquery Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/jquery.min.js') }}"></script>
-    <!-- Popper Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/popper.min.js') }}"></script>
-    <!-- Bootstrap Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/bootstrap.min.js') }}"></script>
-    <!-- MeanMenu JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/jquery.meanmenu.js') }}"></script>
-    <!-- Owl Carousel Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/owl.carousel.min.js') }}"></script>
-    <!-- Magnific Popup Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <!-- Form Validator Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/form-validator.min.js') }}"></script>
-    <!-- Contact Form Script JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/contact-form-script.js') }}"></script>
-    <!-- ajaxChimp Min JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/jquery.ajaxchimp.min.js') }}"></script>
-    <!-- Main JS -->
-    <script src="{{ asset('resources/sinmun/assets/js/main.js') }}"></script>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+        <div class="go-top"><i class="icofont-swoosh-up"></i></div>
+
+        <!-- Jquery Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/jquery.min.js') }}"></script>
+        <!-- Popper Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/popper.min.js') }}"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/bootstrap.min.js') }}"></script>
+        <!-- MeanMenu JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/jquery.meanmenu.js') }}"></script>
+        <!-- Owl Carousel Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/owl.carousel.min.js') }}"></script>
+        <!-- Magnific Popup Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/jquery.magnific-popup.min.js') }}"></script>
+        <!-- Form Validator Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/form-validator.min.js') }}"></script>
+        <!-- Contact Form Script JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/contact-form-script.js') }}"></script>
+        <!-- ajaxChimp Min JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/jquery.ajaxchimp.min.js') }}"></script>
+        <!-- Main JS -->
+        <script src="{{ asset('resources/sinmun/assets/js/main.js') }}"></script>
 </body>
 
 </html>
