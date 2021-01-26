@@ -33,9 +33,12 @@
                     <div class="article-img">
 
 
-                        <img src="{{ url('/images/gallery/'.$h->img) }}" alt="image">
+                        <img src="{{ url('/images/gallery/'.$h->img) }}" alt="image" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;">
                         <img src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image"
-                            style="position: absolute; top: 200px; left: 5px;">
+                            style="position: absolute; top: 200px; left: 200px;" height="300px">
                     </div>
 
                     <div class="article-content">
@@ -69,7 +72,8 @@
                                     <div class="single-more-news">
                                     
                                         <img src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive">
-
+                                        
+                                        <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 50px; left: 5px;" ></a>
                                         <div class="news-content">
                                             <ul>
                                                 

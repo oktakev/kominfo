@@ -22,10 +22,11 @@
 
                     <div class="d-flex flex-wrap">
                         @foreach($beritahoax as $h)
+                        
                         <div class="posts-thumb align-self-stretch">
                         <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="600" height="400" src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive"></a>
 
-                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;" ></a>
+                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 50px; left: 5px;" ></a>
 
                         
                         </div>
@@ -41,7 +42,8 @@
                             </div>
 
                             <p id="demo">
-                            {!! substr("$h->content",0,100) !!}
+                            {!! substr("$h->content",0,100) !!} ...
+                            <a href="detil_hoax2/{{ $h->id_hoax }}">Baca selengkapnya</a>
                             
                             </p>
               

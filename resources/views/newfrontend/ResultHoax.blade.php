@@ -43,7 +43,8 @@
                             </div>
 
                             <p id="demo">
-                            {!! substr("$h->content",0,100) !!}
+                            {!! substr("$h->content",0,100) !!}...
+                            <a href="detil_hoax2/{{ $h->id_hoax }}">Baca selengkapnya</a>
                             
                             </p>
               

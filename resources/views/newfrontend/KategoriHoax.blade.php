@@ -22,9 +22,9 @@
                             <div class="row  m-0 align-items-center">
                                 <div class="col-lg-5 col-md-6 p-0">
                                     <div class="category-news-image">
-                                        <a href="PostHoax"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive"></a>
+                                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="480" height="240" src="{{ url('/images/gallery/'.$h->img) }}" alt="image" class="responsive"></a>
 
-                                        <a href="PostHoax"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 5px; left: 5px;"></a>
+                                        <a href="detil_hoax2/{{ $h->id_hoax }}"><img width="400" height="200" src="{{ url('/images/gallery/'. $h->kategori .'.png') }}" alt="image" id="image2" style="position: absolute; top: 50px; left: 5px;"></a>
 
                                         <!-- <div class="tags bg-3">
                                             <a href="#">Hoax</a>
@@ -38,7 +38,9 @@
                                         <h3><a href="detil_hoax2/{{ $h->id_hoax }}">{{ $h->judul}}</a></h3>
                                         <div>
                                         <!-- {!! substr($h->content,0,150) !!} -->
-                                        <p>Mungkin diisi sinopsis</p>
+                                        <p id="demo">
+                            {!! substr("$h->content",0,100) !!} ...
+                            <a href="detil_hoax2/{{ $h->id_hoax }}">Baca selengkapnya</a>
                                         <br><br>
                                         </div>
                                        

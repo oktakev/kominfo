@@ -47,8 +47,8 @@
 
     .responsive {
         object-fit: cover;
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
 </style>
 
@@ -97,10 +97,10 @@
                         <li class="nav-item"><a href="@yield('beranda')" class="nav-link">Beranda</a>
                             
                         </li>
-
+<!-- 
                         <li class="nav-item"><a href="#" class="nav-link">Tentang</a></li>
 
-                        <li class="nav-item"><a href="#" class="nav-link">Layanan</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Layanan</a></li> -->
 
                         <li class="nav-item"><a href="@yield('beranda')" class="nav-link">Berita</a>
                         <ul class="dropdown-menu">
@@ -109,9 +109,7 @@
                                 <li class="nav-item"><a href="kategori_disinformasi" class="nav-link">Disinformasi</a></li>
 
                             </ul>
-                        </li>
-
-                        <li class="nav-item"><a href="#" class="nav-link">Galeri</a></li>
+                        </li>                   
 
                         <li class="nav-item"><a href="#" class="nav-link">Kontak</a>
                             
